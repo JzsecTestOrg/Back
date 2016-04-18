@@ -1,0 +1,14 @@
+#fast train
+UPDATE b_chapter_history SET begin_time="2015-09-05 18:35:44" ,finished="1" ,end_time="2015-09-09 18:35:44" WHERE bid=(SELECT bid FROM b_user WHERE mobilephone="18010161483") OR bid=(SELECT bid FROM b_user WHERE mobilephone="13366422977") OR bid=(SELECT bid FROM b_user WHERE mobilephone="15501253282") OR bid=(SELECT bid FROM b_user WHERE mobilephone="15210262168") OR bid=(SELECT bid FROM b_user WHERE mobilephone="17600809334") OR bid=(SELECT bid FROM b_user WHERE mobilephone="15311578835") OR bid=(SELECT bid FROM b_user WHERE mobilephone="18753610132") OR bid=(SELECT bid FROM b_user WHERE mobilephone="15332489167") OR bid=(SELECT bid FROM b_user WHERE mobilephone="15801205322")
+UPDATE b_user SET train_status="1" WHERE mobilephone="18010161483" OR mobilephone="13366422977" OR mobilephone="15501253282"  OR mobilephone="15210262168" OR mobilephone="17600809334" OR mobilephone="15311578835" OR mobilephone="15332489167" OR mobilephone="15801205322" OR mobilephone="18753610132"
+#add tuijian
+UPDATE sys_share_relation SET status="1002" WHERE mobilephone="18010161483" OR mobilephone="18001361256" OR mobilephone="17600809334" OR mobilephone="13366422977"
+#query b_user
+#SELECT * FROM b_user WHERE mobilephone="18010161483"
+#
+#
+#protfolio
+SELECT * FROM im_user_relation WHERE user_client_id="kingbroker_1295"
+#insert im_user_relation
+#INSERT INTO im_user_relation VALUES (NULL, 'kingbroker_74ce9daab55bfcd09392980e4ea89c4c', '1', '2', #'kingbroker_06fc2f8ee14caa5ff9204c0211606f24', '1', '2015-12-21 11:15:00', '2015-12-23 10:24:28', '', '', '', '')
+#INSERT INTO im_user_relation VALUES (NULL, 'kingbroker_06fc2f8ee14caa5ff9204c0211606f24', '1', '2', 'kingbroker_74ce9daab55bfcd09392980e4ea89c4c', '1', '2015-12-21 11:15:00', '2015-12-23 10:24:28', '', '', '', '')
