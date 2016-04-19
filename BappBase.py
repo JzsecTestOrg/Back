@@ -3283,3 +3283,27 @@ class Bapp:
         else:
             test1=MainLogic()
             test1.scenelogicTest(path,params,inputp,outputp)
+    #面谈成功接口
+    @staticmethod
+    def interviewSuccess(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,cust_client_id,call_type,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['cust_client_id']=cust_client_id
+        params['call_type']=call_type
+        params['returnvalue']=returnvalue
+        path=bappurl + '/interview/success'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
