@@ -1037,7 +1037,68 @@ class Capp:
         else:
             test.iterationTest(path, params)
 
+    #查询更新身份证进度
+    @staticmethod
+    def cuserGetfreshidstatus(iteration,mobilephone,cappver,envType,token,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = mobilephone
+        params['appVer']=cappver
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['returnvalue']=returnvalue
+        path=cappurl + '/cuser/getfreshidstatus'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
 
+    #上传新身份证信息
+    @staticmethod
+    def cuserUploadnewidentity(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,custid,trdpwd,id_code,id_begain_date,id_end_date,cust_name,id_addr,id_iss_agcy,id_sex,id_birthday,id_front_bucket,id_front_key, id_back_bucket,id_back_key,id_inhand_bucket,id_inhand_key,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = cappmobilephone
+        params['appVer']=cappver
+        params['envType']=cenvType
+        params['token']=capptoken
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=cappType
+        params['returnvalue']=returnvalue
+        params['custid']=custid
+        params['trdpwd']=trdpwd
+        params['id_code']=id_code
+        params['id_begain_date']=id_begain_date
+        params['id_end_date']=id_end_date
+        params['cust_name']=cust_name
+        params['id_addr']=id_addr
+        params['id_iss_agcy']=id_iss_agcy
+        params['id_sex']=id_sex
+        params['id_birthday']=id_birthday
+        params['id_front_bucket']=id_front_bucket
+        params['id_front_key']=id_front_key
+        params['id_back_bucket']=id_back_bucket
+        params['id_back_key']=id_back_key
+        params['id_inhand_bucket']=id_inhand_bucket
+        params['id_inhand_key']=id_inhand_key
+
+        path=cappurl + '/cuser/uploadnewidentity'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
 
 
 
@@ -3101,5 +3162,124 @@ class Bapp:
         test=InterfaceTests()
         if iteration=="Nomal":
             test.interfaceTest(path,params)
-        else:
+        elif iteration=="Fault":
             test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+    #远程面谈刷脸验证
+    @staticmethod
+    def interviewFacevalidate(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,cust_client_id,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['cust_client_id']=cust_client_id
+        params['returnvalue']=returnvalue
+        path=bappurl + '/interview/facevalidate'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+    #远程面谈刷脸前检查是否满足条件
+    @staticmethod
+    def interviewFacecheck(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,cust_client_id,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['cust_client_id']=cust_client_id
+        params['returnvalue']=returnvalue
+        path=bappurl + '/interview/facecheck'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+    #远程面谈内容确认页
+    @staticmethod
+    def interviewRemotecontent(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,cust_client_id,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['cust_client_id']=cust_client_id
+        params['returnvalue']=returnvalue
+        path=bappurl + '/interview/remotecontent'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+    #合规面谈状态查询
+    @staticmethod
+    def interviewStatus(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,cust_client_id,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['cust_client_id']=cust_client_id
+        params['returnvalue']=returnvalue
+        path=bappurl + '/interview/status'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+    #面谈成功接口
+    @staticmethod
+    def interviewSuccess(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,cust_client_id,call_type,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['cust_client_id']=cust_client_id
+        params['call_type']=call_type
+        params['returnvalue']=returnvalue
+        path=bappurl + '/interview/success'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
