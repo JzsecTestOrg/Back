@@ -7,13 +7,13 @@ Created on Fri Jul 17 11:38:25 2015
 from InterfaceTests import *
 
 #测试环境
-# bappurl='http://t.a.jzsec.com'
-# cappurl='http://t.c.jzsec.com'
-# imurl='http://mt.jzsec.com'
+bappurl='http://t.a.jzsec.com'
+cappurl='http://t.c.jzsec.com'
+imurl='http://mt.jzsec.com'
 # 开发环境
-bappurl='http://bapp.tlan.com.cn'
-cappurl='http://capp.tlan.com.cn'
-imurl='http://immanager.tlan.com.cn'
+# bappurl='http://bapp.tlan.com.cn'
+# cappurl='http://capp.tlan.com.cn'
+# imurl='http://immanager.tlan.com.cn'
 class Capp:
 
     """V2.0组合"""
@@ -1101,7 +1101,107 @@ class Capp:
             test1.scenelogicTest(path,params,inputp,outputp)
 
 
+    #各分支机构佣金协议H5页面
+    @staticmethod
+    def cuserBrokeragedoc(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,role_id,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = cappmobilephone
+        params['appVer']=cappver
+        params['envType']=cenvType
+        params['token']=capptoken
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=cappType
+        params['role_id']=role_id
+        params['returnvalue']=returnvalue
+        path=cappurl + '/cuser/brokeragedoc'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
 
+    #查看身份证信息，同时返回是否有身份证正在更新
+    @staticmethod
+    def cuserGetidentity(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,custid,trdpwd,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = cappmobilephone
+        params['appVer']=cappver
+        params['envType']=cenvType
+        params['token']=capptoken
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=cappType
+        params['custid']=custid
+        params['trdpwd']=trdpwd
+        params['returnvalue']=returnvalue
+        path=cappurl + '/cuser/getidentity'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #风险测评H5接口
+    @staticmethod
+    def cuserRiskevaluation(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,fromid,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = cappmobilephone
+        params['appVer']=cappver
+        params['envType']=cenvType
+        params['token']=capptoken
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=cappType
+        params['from']=fromid
+        params['returnvalue']=returnvalue
+        path=cappurl + '/cuser/riskevaluation'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+    #处理投诉信息
+    @staticmethod
+    def cuserComfirmcomplaint(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,broker_name,content,contact_name,contact_mobile,broker_mobile,cert_num,attachments,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = cappmobilephone
+        params['appVer']=cappver
+        params['envType']=cenvType
+        params['token']=capptoken
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=cappType
+        params['broker_name']=broker_name
+        params['content']=content
+        params['contact_name']=contact_name
+        params['contact_mobile']=contact_mobile
+        params['broker_mobile']=broker_mobile
+        params['cert_num']=cert_num
+        params['attachments']=attachments
+        params['returnvalue']=returnvalue
+        path=cappurl + '/cuser/confirmcomplaint'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
 
 
 
@@ -1806,6 +1906,30 @@ class Bapp:
             test1=MainLogic()
             test1.scenelogicTest(path,params,inputp,outputp)
 
+    #登录
+    @staticmethod
+    def systemLogin(iteration,mobilephone,appver,envType,token,deviceType,userId,deviceCode,appType,password,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = mobilephone
+        params['appVer']=appver
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['password']=password
+        params['returnvalue']=returnvalue
+        path=bappurl + '/system/login'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
     #注册接口
     @staticmethod
     def systemRegister(iteration,mobilephone,cappver,envType,token,deviceType,userId,deviceCode,appType,verifyCode,password,verifyPassword,fromwhichsys,nickName,agree,returnvalue=None,inputp=None,outputp=None):
@@ -2161,7 +2285,7 @@ class Bapp:
             test.iterationTest(path, params)
 
     @staticmethod
-    def buser_uploadconfirm(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None):
+    def buser_uploadconfirm(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,role_id,returnvalue=None,inputp=None,outputp=None):
         """身份证信息核对
         """
         params={}
@@ -2173,6 +2297,7 @@ class Bapp:
         params['userId']=userId
         params['deviceCode']=deviceCode
         params['appType']=appType
+        params['role_id']=role_id
         params['returnvalue']=returnvalue
         path=bappurl + '/buser/uploadconfirm'
         test=InterfaceTests()
@@ -2345,7 +2470,7 @@ class Bapp:
 
 
     @staticmethod
-    def system_resetpass(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,password,verifyPassword,returnvalue=None,inputp=None,outputp=None):
+    def system_resetpass(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,password,verifyPassword,verifyCode,returnvalue=None,inputp=None,outputp=None):
         """重置密码
         """
         params={}
@@ -2359,13 +2484,17 @@ class Bapp:
         params['appType']=appType
         params['verifyPassword']=verifyPassword
         params['password']=password
+        params['verifyCode']=verifyCode
         params['returnvalue']=returnvalue
         path=bappurl + '/system/resetpass'
         test=InterfaceTests()
         if iteration=="Nomal":
             test.interfaceTest(path,params)
-        else:
+        elif iteration=="Fault":
             test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
 
     @staticmethod
     def bcustomer_getmycusers115(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,customerMobilephones,returnvalue=None,inputp=None,outputp=None):
@@ -3142,6 +3271,30 @@ class Bapp:
             test.interfaceTest(path,params)
         else:
             test.iterationTest(path, params)
+    #经纪宝意见反馈
+    @staticmethod
+    def buserSendadvice(iteration,cappmobilephone,cappver,envType,token,deviceType,userId,deviceCode,appType,content,parent_adv_id,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = cappmobilephone
+        params['appVer']=cappver
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['content']=content
+        params['parent_adv_id']=parent_adv_id
+        params['returnvalue']=returnvalue
+        path=bappurl + '/buser/sendadvice'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
     #将合同发送至电子邮箱
     @staticmethod
     def buserContractmail(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,cust_client_id,mail,futureSelected,returnvalue=None,inputp=None,outputp=None):
@@ -3283,9 +3436,9 @@ class Bapp:
         else:
             test1=MainLogic()
             test1.scenelogicTest(path,params,inputp,outputp)
-    #面谈成功接口
+    #执业证书回执确认
     @staticmethod
-    def interviewSuccess(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,cust_client_id,call_type,returnvalue=None,inputp=None,outputp=None):
+    def buserConfirmsacreceive(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,cust_client_id,call_type,returnvalue=None,inputp=None,outputp=None):
         params={}
         params['mobilephone']=mobilephone
         params['appVer']=appVer
@@ -3298,7 +3451,153 @@ class Bapp:
         params['cust_client_id']=cust_client_id
         params['call_type']=call_type
         params['returnvalue']=returnvalue
-        path=bappurl + '/interview/success'
+        path=bappurl + '/buser/confirmsacreceive'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+    #经纪人位置信息上传接口
+    @staticmethod
+    def buserUploadposition(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,longitude,latitude,province,city,address,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['longitude']=longitude
+        params['latitude']=latitude
+        params['province']=province
+        params['city']=city
+        params['address']=address
+        params['returnvalue']=returnvalue
+        path=bappurl + '/buser/uploadposition'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #经纪人同意或者拒绝团队长修改绩效提成比例
+    @staticmethod
+    def teamorderAgreeratio(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,teamorderid,isagree,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['teamorderid']=teamorderid
+        params['isagree']=isagree
+        params['returnvalue']=returnvalue
+        path=bappurl + '/teamorder/agreeratio'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+    #接受or拒绝团队长的邀请or踢出
+    @staticmethod
+    def teamorderAcceptinvite(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,teamorderid,accept,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['teamorderid']=teamorderid
+        params['accept']=accept
+        params['returnvalue']=returnvalue
+        path=bappurl + '/teamorder/acceptinvite'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #经纪宝启动检查信息
+    @staticmethod
+    def messageGetdailymsg(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['returnvalue']=returnvalue
+        path=bappurl + '/message/getdailymsg'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #获取绩效提成比例状态信息
+    @staticmethod
+    def teamorderGetratiostatus(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,teamorderid,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['teamorderid']=teamorderid
+        params['returnvalue']=returnvalue
+        path=bappurl + '/teamorder/getratiostatus'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #114版获取历史业绩中的月收入详情
+    @staticmethod
+    def financeMonthearn114(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['returnvalue']=returnvalue
+        path=bappurl + '/finance/monthearn114'
         test=InterfaceTests()
         if iteration=="Nomal":
             test.interfaceTest(path,params)

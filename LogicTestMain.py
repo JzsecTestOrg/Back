@@ -5,6 +5,7 @@ from InterfaceTests import InterfaceTests
 from BappBase import Bapp,Capp
 #必填参数
 iteration="Nomal"
+#iteration="Fault"
 #mobilephone = '15501253701'
 mobilephone = '18010161483'
 cappmobilephone='13300000008'
@@ -41,7 +42,7 @@ select_recommend="投资大师，开户交易一体化，给您一站式流畅�
 getmycusers_customerMobilephones=["13210872456"]
 customers=[{"customerExtend":{"add":[{"value":"15801208889","_id":44,"type":10,"bappceid":"b4691009650240e8beb66ae16de47dfb","status":2,"cid":"2c0931b782a3950c8b5c2bb8375aff307030307b0123423e9cadae9581c65a3b"}]}}]
 #client_id='123'
-myClientId='kingbroker_74ce9daab55bfcd09392980e4ea89c4c'
+myClientId='kingbroker_b290d1046e194a8b52dfbbd525edb47e'
 fClientId='kingbroker_dafd0d230799780a8a6258948537238c'
 fromtype='1'
 targettype='1'
@@ -59,6 +60,34 @@ sysattachment_ucloudbapptoken='1'
 title='上传'
 dataAuth="3cc8d1d37a06a9665fb64e7f64d4f27e"
 verifyCode="123456"
+custid="81106500003"
+trdpwd="P1D_QjsUkChPc2B9OVcBV2-0pdId8aFTIpmQKI3JJBHxhdhR8sOozYroHDFCh_Wb_7FoH7ikAfkbvWXgs5lqZXI9_R8JDW0nMbyMQl_z1K2vHO6ofS-1C-3KH55kO0ZplfwO3pY2eBjMB2EtifN0vtk3MlTg4VlnfTK4n_qHc3g"
+role_id="25"
+call_type="1"
+
+
+#身份证上传
+id_front_bucket= "jingjibao"
+id_inhand_key= "601a748a77a82d993f749aaf0f22f1ff"
+id_begain_date= "2006-11-07"
+cust_name= "王小三"
+id_inhand_bucket= "jingjibao"
+id_addr= "江苏省泗洪县界集镇王墩村十六组16号"
+id_back_key= "dd09c06f0006f6cace9a96dd8af2e9c0"
+id_sex= "男"
+id_front_key= "428d0fefac51947735563ea870a58aef"
+id_iss_agcy= "笁海市公安局奉贤分局"
+id_code= "421002198212131060"
+id_birthday= "1982-12-13"
+id_end_date= "2016-11-07"
+id_back_bucket= "jingjibao"
+
+province="北京市"
+city="北京市"
+longitude="116.41"
+latitude="40.02"
+attachments="{\"bucket\":\"jingjibao\",\"key\":\"e3978375edd2de0300ac589ce0634f67\",\"file_type\":\"1\"}"
+
 
 
 #组合
@@ -81,7 +110,7 @@ bid="dafd0d230799780a8a6258948537238c"
 fromid='kingbroker_dafd0d230799780a8a6258948537238c'
 targetid='kingbroker_74ce9daab55bfcd09392980e4ea89c4c'
 deletetype='1'
-gid='56776eb560b27f7a263bb992'
+gid='56e8fdc5efa631005446534f'
 user_name='zhangshan'
 agree='1'
 username='jinghua'
@@ -104,6 +133,7 @@ chkmsg_syslink_getrecommend="我发现个好东西，股票经纪人专用神器
 #password='Jzzq87654321'
 password='qaz123'
 cust_id="81106500014"
+teamorderid="0831001"
 
 
 flag='1'
@@ -127,9 +157,9 @@ print(bapptoken)
 #Bapp.friendFrienddelete(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,fromid,targetid,deletetype,returnvalue=None)
 #Bapp.friendFriendapply(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,myClientId,fClientId,fromtype,targettype,"您的请求已发送，请耐心等待")
 #IM获取好友列表
-"""
+
 Bapp.namelistGetfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,myClientId,"获取成功")
-Bapp.namelistGetfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,myClientId,"display_name\": \"错过后悔\"")
+Bapp.namelistGetfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,myClientId,"display_name\": \"投资客5084\"")
 Bapp.namelistGetfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,myClientId,"status\": \"2")
 #IM获取好友or群成员详情
 Bapp.namelistGetimuserdetail(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,fClientId,"获取成功")
@@ -146,17 +176,16 @@ Bapp.groupAddmember(iteration,mobilephone,appVer,envType,bapptoken,deviceType,us
 Bapp.groupAddmember(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,tclient_ids,gid,user_name,"code\": 0")
 #Bapp.groupAddmember(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,tclient_ids,gid,user_name,"你邀请了张加入王建的群")
 #IM 确认/驳回 群邀请（个人）
-Bapp.groupUserconfirm(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,agree,fClientId,"没有有效的邀请信息")
+#Bapp.groupUserconfirm(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,agree,fClientId,"没有有效的邀请信息")
 Bapp.groupUserconfirm(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,agree,fClientId,"code\": -1")
 Bapp.groupManagerconfirm(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,agree,tclient_id,"code\": -1")
-Bapp.groupCreategroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,client_ids,"msg\": \"创建失败")
-Bapp.groupCreategroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,client_ids,"code\": -4")
+Bapp.groupCreategroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,client_ids,"msg\": \"你管理的群组数过多，无法继续新建群组")
 #拉好友进群好友列表
 Bapp.namelistGroupfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"获取成功")
 #Bapp.namelistGroupfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"t_user_client_id\": \"kingbroker_dafd0d230799780a8a6258948537238c")
 Bapp.namelistGroupfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"friends")
 #IM个人聊天详情页接口
-Bapp.namelistPersondetail(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,room_id,"msg\": \"获取成功")
+Bapp.namelistPersondetail(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,room_id,"code\": -1")
 Bapp.groupCreatedefaultgroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"kljljljljlkj","msg\": \"经纪人不存在")
 Bapp.groupCreatedefaultgroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"kljljljljlkj","code\": -1")
 Bapp.groupCreatedefaultgroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,bid)
@@ -165,23 +194,23 @@ Bapp.groupJoindefaultgroup(iteration,mobilephone,appVer,envType,bapptoken,device
 Bapp.groupMemberportfolios(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"msg\": \"群成员组合查询成功")
 Bapp.groupMemberportfolios(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"code\": 0")
 #Bapp.groupMemberportfolios(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"symbol\": \"LOM886")
-Bapp.groupMemberportfolios(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"gnick\": \"潘海楠")
+Bapp.groupMemberportfolios(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"gnick\": \"京华")
 #IM 群邀请列表
 #Bapp.groupGroupinvlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,username,"user_status\": 1")
 Bapp.groupGroupinvlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,username,"code\": 0")
 #Bapp.groupGroupinvlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,username,"title\": \"投资圈")
 #IM 用户所在的群
 Bapp.groupGrouplist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"code\": 0")
-Bapp.groupGrouplist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"gname\": \"王建的群")
+Bapp.groupGrouplist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"gname\": \"投资圈")
 Bapp.groupGrouplist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"gid\": \"56776eb560b27f7a263bb992")
 #获取群组合基本信息
 Bapp.groupGetfolio(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"code\": 0")
-Bapp.groupGetfolio(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"msg\": \"查询成功")
+Bapp.groupGetfolio(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"msg\": \"没有查询到组合信息")
 #IM 修改群信息
 Bapp.groupUpdategroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,content,'1',"code\": 0")
-Bapp.groupUpdategroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,content,'2',"msg\": \"修改失败")
+Bapp.groupUpdategroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,content,'2',"msg\": \"修改成功")
 Bapp.groupUpdategroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,content,'3',"msg\": \"修改成功")
-Bapp.groupUpdategroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"LOM886",'5',"msg\": \"更新成功")
+Bapp.groupUpdategroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,"LOM886",'5',"msg\": \"参数错误，请重新选择")
 Bapp.groupUpdategroup(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,gid,picpath,'4',"msg\": \"SUCCESS")
 #IM 安卓获取静音会话列表
 Bapp.androidGetnodisturblistmember(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,conv_ids,"code\": 0")
@@ -191,11 +220,11 @@ Bapp.groupGuerystatus(iteration,mobilephone,appVer,envType,bapptoken,deviceType,
 Bapp.groupGuerystatus(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"mute\": 0")
 
 Bapp.groupSetmuteall(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"0","code\": 0")
-Bapp.groupSetmuteall(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"0","msg\": \"静音模式切换成功")
+Bapp.groupSetmuteall(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"0","msg\": \"免打扰已开启")
 
 Bapp.friendSfbyphone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"18010161483","code\": 0")
 Bapp.friendSfbyphone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"18010161483","mobilephone\": \"18010161483")
-Bapp.friendSfbyphone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"18010161483","nickname\": \"jinghuaj")
+Bapp.friendSfbyphone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"18010161483","nickname\": \"王建")
 Bapp.friendSfbyphone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"18010161483","msg\": \"查询用户成功")
 
 Bapp.groupSetmuteone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"0",gid,"msg\": \"免打扰状态切换成功")
@@ -236,7 +265,7 @@ Capp.portfolioDeletefavourite(iteration,cappmobilephone,cappver,cenvType,capptok
 Capp.portfolioDeletefavourite(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,symbol,cappclient_id,"msg\": \"未关注该组合")
 #组合详情
 Capp.portfolioDetails(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,symbol,cappclient_id,"code\": 0")
-Capp.portfolioDetails(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,symbol,cappclient_id,cappclient_id)
+Capp.portfolioDetails(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,symbol,cappclient_id,"owner\": \"imaster_")
 Capp.portfolioDetails(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,symbol,cappclient_id,"msg\": \"组合详情查询完毕")
 Capp.portfolioDetails(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,symbol,cappclient_id,"status\": \"1")
 #所有组合列表
@@ -290,7 +319,7 @@ Bapp.sysattachment_ucloudtoken(iteration,mobilephone,appVer,envType,bapptoken,de
 Bapp.sysattachment_ucloudtoken(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,"bucket\": \"jingjibao")
 #身份证信息核对
 Bapp.buser_uploadconfirm(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,"code\": 0")
-Bapp.buser_uploadconfirm(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,"msg\": \"状态更新完毕")
+
 #身份证信息提交
 Bapp.system_editinfo(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,sex,issue_authority,identityNum,validity,name,"您的身份信息及从业资格已通过审核")
 #在线培训获取相关信息
@@ -330,7 +359,7 @@ Bapp.buser_saveavater(iteration,mobilephone,appVer,envType,bapptoken,deviceType,
 #已寄出快递
 Bapp.buser_getlastexpress(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,"code\": 0")
 #确认并发送合同
-Bapp.buser_contractmail(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,mail,"msg\": \"您尚未选择组织。")
+Bapp.buser_contractmail(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,mail,"msg\": \"发送成功")
 
 Bapp.financeThismonthperf201(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,date,kind,page,"code\": 0")
 Bapp.financeThismonthperf201(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,date,kind,page,"msg\": \"SUCCESS")
@@ -364,12 +393,12 @@ Bapp.systemCheckexamstatus(iteration,mobilephone,appVer,envType,bapptoken,device
 Bapp.jointtrainTrain(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"1",returnvalue=None)
 Bapp.jointtrainTrain(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"2",returnvalue=None)
 Bapp.jointtrainDdoquestion(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"169","1",returnvalue=None)
-Bapp.jointtrainDdoquestion(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"169","2","msg\": \"回答错误")
+#Bapp.jointtrainDdoquestion(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"169","2","msg\": \"回答错误")
 Bapp.jointtrainDdoquestion(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"588","1","msg\": \"问题不存在")
-Bapp.jointtrainShowquestion(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"9","msg\": \"参数错误！章节不存在。")
+Bapp.jointtrainShowquestion(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"9","msg\": \"成功")
 Bapp.jointtrainShowquestion(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"1","code\": 0")
-Bapp.jointtrainShowchapter(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"1","msg\": \"培训时间到，开始答题")
-Bapp.jointtrainShowchapter(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"9","msg\": \"参数错误！章节不存在。")
+Bapp.jointtrainShowchapter(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"1","msg\": \"已经完成本章节")
+Bapp.jointtrainShowchapter(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"9","msg\": \"培训时间到，开始答题")
 Bapp.bfutureuserGettrainhis(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"msg\": \"获取成功")
 Bapp.bfutureuserGetcontractaudithis(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"msg\": \"获取成功")
 Bapp.bfutureuserGetsacaudithis(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"msg\": \"获取成功")
@@ -379,7 +408,28 @@ Bapp.bfutureuserContractmail(iteration,mobilephone,appVer,envType,bapptoken,devi
 Bapp.bfutureuserContractmail(iteration,mobilephone,appVer,envType,bapptoken,deviceType,"123213213",deviceCode,appType,cust_client_id,mail,address,"msg\": \"发送成功")
 Bapp.bfutureuserFinishaffiliated(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,returnvalue=None)
 Bapp.buserContractmail(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,mail,"1","msg\": \"发送成功")
+
+
+#v2.4.1
+
+Bapp.interviewFacevalidate(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,returnvalue=None,inputp=None,outputp=None)
+Bapp.interviewFacecheck(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,returnvalue=None,inputp=None,outputp=None)
+Bapp.interviewRemotecontent(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,returnvalue=None,inputp=None,outputp=None)
+Bapp.interviewStatus(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,returnvalue=None,inputp=None,outputp=None)
+Bapp.interviewSuccess(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,call_type,returnvalue=None,inputp=None,outputp=None)
+Bapp.buserConfirmsacreceive(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,call_type,returnvalue=None,inputp=None,outputp=None)
+
+#v2.5.0
+Bapp.buser_uploadconfirm(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,role_id,"msg\": \"本人头像照片缺失或者无效，请重新上传")
 Bapp.buserGetuserstatus(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,cust_client_id,"msg\": \"获取成功")
+Bapp.buserUploadposition(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,longitude,latitude,province,city,address,returnvalue=None,inputp=None,outputp=None)
+
+#v2.6.0
+Bapp.teamorderAgreeratio(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,teamorderid,"-1",returnvalue="code\": -2",inputp=None,outputp=None)
+Bapp.teamorderAcceptinvite(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,teamorderid,"1",returnvalue="code\": -1",inputp=None,outputp=None)
+Bapp.messageGetdailymsg(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,returnvalue="msg\": \"获取成功",inputp=None,outputp=None)
+Bapp.teamorderGetratiostatus(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,teamorderid,returnvalue="msg\": \"该用户没有绩效提成信息",inputp=None,outputp=None)
+Bapp.financeMonthearn114(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None)
 
 
 ######Capp
@@ -393,7 +443,7 @@ Capp.cuserGetcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceTy
 
 
 Capp.cuserGetcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,cappuserId,deviceCode,appType,"status\": \"401")
-Capp.cuserGetcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,cappuserId,deviceCode,appType,"custId\": \"8110")
+Capp.cuserGetcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,cappuserId,deviceCode,appType,"roleName\": \"西宁市西关路营业部")
 #投资大师开户保存证件号
 #Capp.cuserSaveidentity(iteration,cappmobilephone,cappver,envType,token,deviceType,userId,deviceCode,appType,openMobile,idno,custname,returnvalue=None)
 #检验找回密码验证码
@@ -431,17 +481,27 @@ Capp.newshareDetails(iteration,cappmobilephone,cappver,envType,capptoken,deviceT
 #v2.3.1
 Capp.cuserCheckcustidbind(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,userId,deviceCode,appType,cust_id,"msg\": \"此客户号已被133****0024占用，请使用新客户号")
 Capp.cuserCheckcustidbind(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,userId,deviceCode,appType,"81106500089adb","msg\": \"允许使用此客户号")
-Capp.cuserCheckcustidbind(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,userId,deviceCode,appType,"811065147","msg\": \"服务器内部错误，请稍后重试")
+Capp.cuserCheckcustidbind(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,userId,deviceCode,appType,"811065147","msg\": \"允许使用此客户号")
 Capp.cuserBindnewcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,userId,deviceCode,appType,cust_id,returnvalue=None)
 Capp.cuserBindnewcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,userId,deviceCode,appType,"811065147",returnvalue=None)
 Capp.cuserBindnewcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,userId,deviceCode,appType,"234235",returnvalue=None)
-Capp.cuserBindnewcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,"123457",deviceCode,appType,"101","msg\": \"您正在开户中或已拥有其他客户号")
+Capp.cuserBindnewcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,"123457",deviceCode,appType,"101","msg\": \"客户号不存在")
 Capp.cuserGetcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,cappuserId,deviceCode,appType,"code\": 0")
 Capp.cuserGetcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,"1483",deviceCode,appType,"code\": -2")
 Capp.cuserGetcustid(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,"123431",deviceCode,appType,"code\": 0")
 Capp.cuserCheckcanopen(iteration,cappmobilephone,cappver,envType,capptoken,deviceType,userId,deviceCode,appType,"msg\": \"您曾在九州证券股份有限公司下辖营业部开立过客户账户，请使用该帐户")
-"""
+
 #v2.4.0
-Capp.portfolioRebalancinghistoriespaged(iteration,cappmobilephone,cappver,cenvType,capptoken,cappclient_id,deviceType,cappuserId,deviceCode,cappType,symbol,"5",page,returnvalue=None,inputp=None,outputp=None)
+Capp.portfolioRebalancinghistoriespaged(iteration,cappmobilephone,cappver,cenvType,capptoken,cappclient_id,deviceType,cappuserId,deviceCode,cappType,symbol,"5",page,returnvalue="pageSize\": \"5",inputp=None,outputp=None)
+Capp.portfolioRebalancinghistoriespaged(iteration,cappmobilephone,cappver,cenvType,capptoken,cappclient_id,deviceType,cappuserId,deviceCode,cappType,symbol,"10",page,returnvalue="pageSize\": \"10",inputp=None,outputp=None)
+Capp.portfolioRebalancinghistoriespaged(iteration,cappmobilephone,cappver,cenvType,capptoken,cappclient_id,deviceType,cappuserId,deviceCode,cappType,symbol,"10","1000",returnvalue="page\": \"1000",inputp=None,outputp=None)
 #Capp.portfolioListholdings(iteration,cappmobilephone,cappver,cenvType,capptoken,cappclient_id,deviceType,cappuserId,deviceCode,cappType,symbols,"code\": 0")
-Capp.portfolioSearch(iteration,cappmobilephone,cappver,cenvType,capptoken,client_id,deviceType,userId,deviceCode,cappType,symbol,"BZD888",returnvalue=None,inputp=None,outputp=None)
+Capp.portfolioSearch(iteration,cappmobilephone,cappver,cenvType,capptoken,client_id,deviceType,userId,deviceCode,cappType,symbol,"Z",returnvalue="symbol\": \"YZT",inputp=None,outputp=None)
+Capp.portfolioSearch(iteration,cappmobilephone,cappver,cenvType,capptoken,client_id,deviceType,userId,deviceCode,cappType,symbol,"在",returnvalue="msg\": \"成功",inputp=None,outputp=None)
+Capp.cuserGetfreshidstatus(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,returnvalue="msg\": \"success",inputp=None,outputp=None)
+Capp.cuserUploadnewidentity(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,custid,trdpwd,id_code,id_begain_date,id_end_date,cust_name,id_addr,id_iss_agcy,id_sex,id_birthday,id_front_bucket,id_front_key, id_back_bucket,id_back_key,id_inhand_bucket,id_inhand_key,returnvalue=None,inputp=None,outputp=None)
+Capp.cuserBrokeragedoc(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,role_id,returnvalue=None,inputp=None,outputp=None)
+Capp.cuserGetidentity(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,custid,trdpwd,returnvalue=None,inputp=None,outputp=None)
+
+
+Capp.cuserComfirmcomplaint(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,"张三",content,"李四","13322221111","18010161483","S0820111070003",attachments,returnvalue=None,inputp=None,outputp=None)

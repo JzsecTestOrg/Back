@@ -1,0 +1,279 @@
+---------------------------------------------------------------------------
+2016-05-27 17:19:00
+http://t.a.jzsec.com/system/login
+{"mobilephone": "18010161483", "agree": "1", "password": "qaz123", "envType": "0", "deviceCode": "python", "appType": "1", "token": "", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:00
+
+200
+{"data": {"roles": [{"role_name": "北京分公司", "create_time": "2016-05-12 16:37:06", "id": "2055", "roleInfo": {"longitude": "116.35771000", "city": {"zipcode": "0", "id": "36", "area_name": "北京市", "parent_id": "2"}, "mngpic_attc": "f3f702c1c785c33bda9a3e4d8d0db6b8", "mngrole": "运营总监", "mngname": "姚文礼", "mngqrcode_attc": "66715dd349d5845d602c48fd3705822f", "order": "100", "name": "北京分公司", "city_name": "北京市", "mngmobile": "18988776177", "pic_attc": "2249dbc4d1ea31050cba7f80036846b0", "address": "北京市西城区金融街7号英蓝国际金融中心D座5层", "is_department": "1", "is_invest": "0", "update_time": "2015-12-15 13:52:00", "mngdesc": "十年的证券从业经验，积累了较强的客户服务和团队管理经验,在当今互联网金融浪潮中,希望和有志之士一起携手开创一片新天地.", "is_futurecmp": "0", "district": {"zipcode": "100020", "id": "381", "area_name": "朝阳区", "parent_id": "36"}, "sidi_id": "0831", "parent_id": "1", "is_subcmp": "1", "province_name": "北京", "province": {"zipcode": "0", "id": "2", "area_name": "北京", "parent_id": "0"}, "create_time": "2015-10-30 13:30:38", "description": "", "id": "22", "mngwechat": "18988776177", "latitude": "39.92057000", "mngmail": "yaowl@jzsec.com", "district_name": "朝阳区", "status": "1", "country": "1"}, "user_id": "b290d1046e194a8b52dfbbd525edb47e", "type": "2", "role_id": "22", "status": "1", "update_time": "2016-05-12 16:37:06", "post_id": "0"}], "regStep": 1, "userInfo": {"mobilephone": 18010161483, "files_create_time": "2016-05-25 17:03:25", "avater": "http://jingjibao.ufile.ucloud.cn/address", "password": "34f85ca80ec353d3052b8a2d3973a0c5", "validity_end": "2023-09-29 00:00:00", "mute": 0, "identity_no": "210726198908280717", "check_state": "", "is_certificate": 0, "nickname": "王建", "last_operate_his": 0, "sac_last": "", "refresh_exam": 0, "sex": 0, "address": "ggcvgg刚刚古古怪怪哈哈还差长发好年纪", "last_sync_client": "1b05878197d42f6e99fec0e4f27ae886", "safety_phone": 0, "private_cc_id": null, "cur_contract_id": 0, "come_from": 2020, "post_code": "", "bfund_id": 0, "job": "", "id_audit_status": 2, "files_version_no": "08310081", "education": "", "create_time": "2015-11-07 18:41:55", "desc": "", "compliance_status": 0, "broker_level": 20, "display_nick": 1, "nationalism": "汉", "reason": "", "cerInfo": [{"status": "1", "current_name": "331c17641de5afd07c919084393e995b", "bucket": "jingjibao", "cerType": "1", "downloadUrl": "http://jingjibao.ufile.ucloud.cn/331c17641de5afd07c919084393e995b"}, {"status": "1", "current_name": "c08ab234167731ae8d0f5302937aca2a", "bucket": "jingjibao", "cerType": "2", "downloadUrl": "http://jingjibao.ufile.ucloud.cn/c08ab234167731ae8d0f5302937aca2a"}], "sac_apply_count": "", "is_default_nickname": 1, "sq_exam_content": "", "status": 1, "last_upload_client": "4d2a69bf981511ab92cce2fd981e3f2b", "brokerage": 0.0015, "gbos_status": 1, "client_id": "kingbroker_b290d1046e194a8b52dfbbd525edb47e", "bid": "b290d1046e194a8b52dfbbd525edb47e", "sq_exam_last": "2016-04-27 11:47:51", "sac_status": -1, "issuing_authority": "黑山县公安局", "contract_end_time": "", "mail": "jinghuaj@126.com", "train_status": 1, "contract_status": 1, "name": "潘海楠", "contract_last": "2016-05-12 16:37:06", "birthday": "0000-00-00 00:00:00", "contract_timelimit": 0, "compliance_time": 0, "train_last": "2015-12-12 16:46:23", "update_time": "2016-05-27 15:00:47", "follow_last": "", "registerRank": 4362, "b_future_id": "600036", "interview_status": 0, "sq_exam_status": 2, "sac_apply_password": "", "idcard_address": "辽宁省黑山县大虎山镇明星路5号一单元5室", "sac_id": "", "bind_time": "0000-00-00 00:00:00", "id_audit_last": "2016-04-27 20:45:47", "opt_status": 0, "id": 4362, "safety_mail": "", "contract_start_time": "", "qrcode_attc": "", "fund_status": 1, "validity_start": "2013-09-29 00:00:00"}, "roleName": "北京分公司", "role_id": "22", "qrcode": "", "token": "80ca25a96ef19b880309967031e4ded5", "userId": "b290d1046e194a8b52dfbbd525edb47e", "bUserCount": 4362, "allBroker": "9977", "contStatus": 0}, "code": 0, "msg": "登录成功"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/login
+{"mobilephone": "13300000008", "agree": "1", "password": "qaz123", "envType": "0", "deviceCode": "python", "appType": "1", "token": "", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": {"last_login": "2015-09-14 10:45:38", "avater": "", "password": "34f85ca80ec353d3052b8a2d3973a0c5", "bapp_broker_time": "2015-09-10 10:59:23", "buser": {"mobilephone": "15210262173", "files_create_time": "2016-04-26 21:46:38", "avater": "fea8c0657d8f2ed3251146a3b98764ee", "safety_phone": "0", "mute": "1", "nationalism": "汉", "reason": "", "check_state": "", "is_certificate": "0", "nickname": "推荐人", "last_operate_his": "0", "roleProvince": "湖南", "refresh_exam": "0", "sex": "1", "address": "上海市杨浦区政立路1585弄36号302", "last_sync_client": "0936aeb5fa074f2fa7e367ae973a6433", "sac_addr": "http%3A%2F%2Ft.b.jzsec.com%2Fsac.php%3Fid%3D123456", "private_cc_id": null, "client_id": "kingbroker_6b4f9f85012b304979c9415210262173", "come_from": "2010", "post_code": "", "bfund_id": "0", "job": "", "id_audit_status": "2", "files_version_no": "08670034", "education": "", "create_time": "2015-09-10 17:54:52", "desc": "我们自己都市生活会越来越大的一次就业服务质量好吃的话我的生活水平不断提高自己的话说明了？这么点儿小孩", "compliance_status": "-1", "role": "21", "broker_level": "1", "display_nick": "0", "roleAddress": "长沙市雨花区韶山中路419号凯宾商业广场顺天国际金融中心南塔1201-1203", "roleDistrict": "芙蓉区", "validity_end": "2031-02-18 00:00:00", "is_default_nickname": "1", "sq_exam_content": "", "status": "4", "last_upload_client": "d1b692a895ad2c9c277a6a69a3ac8bb6", "brokerage": "0.0015", "gbos_status": "1", "bid": "6b4f9f85012b304979c9415210262173", "sac_status": "5", "issuing_authority": "阳江市公安局", "contract_end_time": "", "mail": "532719572@qq.co", "train_status": "1", "contract_status": "0", "name": "推荐", "birthday": "0000-00-00 00:00:00", "contract_timelimit": "0", "compliance_time": "0", "conv_id": "", "update_time": "2016-05-07 15:27:17", "b_user_name": "推荐", "interview_status": "2", "sq_exam_status": "2", "cur_contract_id": "0", "idcard_address": "上海市杨浦区政立路1585弄36号302室", "roleCity": "长沙市", "sac_id": "123456", "bind_time": "0000-00-00 00:00:00", "roleName": "湖南分公司", "opt_status": "4", "roleCode": "0867", "id": "9308", "safety_mail": "", "qrcode_attc": "", "fund_status": "1", "validity_start": "2011-02-18 00:00:00", "authority": "1.向客户介绍证券公司和证券市场的基本情况；\n2.向客户介绍证券投资的基本知识及开户，交易，资金存取等业务流程；\n3.向客户介绍与证券交易有关的法律、行政法规、证监会规定、自律规则和证券公司的有关规定；\n4.向客户传递由证券公司统一提供的研究报告及与证券投资有关的信息；\n5.向客户传递由证券公司统一提供的证券类金融产品宣传推介材料及有关信息；\n6.法律、行政法规和证监会规定证券经纪人可以从事的其他活动；", "region": ""}, "roleCode": "811", "nickname": "", "upg_pass_code": "", "roleName": "西宁市西关路营业部", "sex": "1", "qrcode_attc_url": "", "city": "西宁市", "b_user_mobilephone": "15210262173", "buser_name": "推荐", "credit_fund": [], "b_user_avater": "fea8c0657d8f2ed3251146a3b98764ee", "job": "", "type": "1", "update_time": "2016-03-16 16:23:54", "join_play_count": "0", "display_nick": "1", "addr": "河北省张家口市万全县孔家庄镇工业街南万兴小区0号楼1单元202室", "is_default_nickname": "1", "role": "19", "status": "401", "aux_contact_phone": "", "mobilephone": "0", "address": "青海省西宁市西关路", "loginmobile": "13300000008", "client_id": "imaster_1439", "b_user_sacid": "123456", "birthday": "1977-07-17", "aux_contact_name": "", "funds": [{"customer_type": "", "nationality": "156", "last_set_time": "0000-00-00 00:00:00", "native": "长沙市开福区四方坪红色渔业队1号", "commission": "0.00015000", "custname": "投资大师13300000008", "identity_checkstat": "c", "sd_status": "visitsurvey", "c_user_id": "1439", "fund_bal": "0.00000", "sd_id": "101963", "idtype": "00", "cust_id": "81106500003", "cust_from_isCompany": "0", "fund_id": "81106500003", "update_time": "2016-04-26 22:25:24", "create_time": "2015-08-21 18:18:36", "apply_time": null, "idno": "43062419900818361X", "id": "875", "idenddate": "2055-05-05", "mobileno": "13300000008", "idbegindate": "2005-05-05", "status": "401", "finish_time": null}], "upg_pass": "", "district": "城西区", "registerRank": "1439", "province": "青海", "company": "", "token": "2609c667ee895d791943ab0f50a3758d", "fromwhichsys": "1012", "mute": "1", "create_time": "2015-09-14 10:45:38", "id": "1439", "bapp_broker_id": "6b4f9f85012b304979c9415210262173", "create_play_count": "0", "qrcode_attc": "", "truename": "投资大师13300000008", "role_type": "1", "userId": "1439", "avater_url": ""}, "code": 0, "msg": "登录成功"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/sendauthcode
+{"mobilephone": "", "returnvalue": "\u624b\u673a\u53f7\u5df2\u88ab\u6ce8\u518c", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": 1, "msg": "该手机号已被注册，请使用其它手机号。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/sendauthcode
+{"mobilephone": "15801205322", "returnvalue": "msg\": \"\u8be5\u624b\u673a\u53f7\u5df2\u88ab\u6ce8\u518c\uff0c\u8bf7\u4f7f\u7528\u5176\u5b83\u624b\u673a\u53f7", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": 1, "msg": "该手机号已被注册，请使用其它手机号。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/sendauthcode
+{"mobilephone": "18010161483", "returnvalue": "msg\": \"\u8be5\u624b\u673a\u53f7\u5df2\u88ab\u6ce8\u518c\uff0c\u8bf7\u4f7f\u7528\u5176\u5b83\u624b\u673a\u53f7", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": 1, "msg": "该手机号已被注册，请使用其它手机号。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/register
+{"mobilephone": "13401000655", "fromwhichsys": "1", "agree": "1", "password": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "nickName": "jinghua", "verifycode": "123456", "verifyCode": "455213", "appVer": "94", "appType": "1", "verifyPassword": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -2, "msg": "验证码不正确。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/register
+{"mobilephone": "13401000655", "fromwhichsys": "1", "agree": "1", "password": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "nickName": "*&\u2026\u2026%&**\u2026\u2026\u2026\u2026&", "verifycode": "123456", "verifyCode": "455213", "appVer": "94", "appType": "1", "verifyPassword": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -2, "msg": "验证码不正确。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/register
+{"mobilephone": "13401000655", "fromwhichsys": "1", "agree": "1", "password": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "nickName": "*&\u2026\u2026%&**\u2026\u2026\u2026\u2026&", "verifycode": "$%^&*(&^%$%", "verifyCode": "455213", "appVer": "94", "appType": "1", "verifyPassword": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -2, "msg": "验证码不正确。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/register
+{"mobilephone": "13401000655", "fromwhichsys": "1", "agree": "1", "password": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "nickName": "*&\u2026\u2026%&**\u2026\u2026\u2026\u2026&", "verifycode": "1234567", "verifyCode": "455213", "appVer": "94", "appType": "1", "verifyPassword": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -2, "msg": "验证码不正确。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/login
+{"mobilephone": "18788776756", "returnvalue": "msg\": \"\u7528\u6237\u672a\u6ce8\u518c\u6216\u5df2\u5931\u6548", "password": "qaz123", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1003, "msg": "用户未注册或已失效。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/login
+{"mobilephone": "18788776756", "returnvalue": "\u5bc6\u7801\u9519\u8bef", "password": "qaz 123", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1003, "msg": "用户未注册或已失效。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/login
+{"mobilephone": "15801205322", "returnvalue": "msg\": \"\u767b\u5f55\u6210\u529f", "password": "qaz 123", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1002, "msg": "手机号或密码错误，您还有4次重试机会。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/login
+{"mobilephone": "15801205322", "returnvalue": "msg\":\"\u624b\u673a\u53f7\u6216\u5bc6\u7801\u9519\u8bef\uff0c\u60a8\u8fd8\u67094\u6b21\u91cd\u8bd5\u673a\u4f1a", "password": "", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1002, "msg": "手机号或密码错误，您还有3次重试机会。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/login
+{"mobilephone": "^&**^&*^12321", "returnvalue": "msg\": \"\u60a8\u7684\u5e10\u53f7\u5df2\u88ab\u9501\u5b9a", "password": "", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1003, "msg": "用户未注册或已失效。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.c.jzsec.com/cuser/login
+{"mobilephone": "18010161483", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "password": "", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "2609c667ee895d791943ab0f50a3758d", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1005, "msg": "验证码错误，请重新输入。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/sendauthcode
+{"mobilephone": "", "returnvalue": "\u624b\u673a\u53f7\u9519\u8bef", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -2, "msg": "手机号错误。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/sendauthcode
+{"mobilephone": "15801205322", "returnvalue": "code\": -21", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -21, "msg": "该手机号已经注册，请使用其它手机号。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/sendauthcode
+{"mobilephone": "18010161483", "returnvalue": "msg\": \"\u8be5\u624b\u673a\u53f7\u5df2\u7ecf\u6ce8\u518c\uff0c\u8bf7\u4f7f\u7528\u5176\u5b83\u624b\u673a\u53f7", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -21, "msg": "该手机号已经注册，请使用其它手机号。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/register
+{"mobilephone": "18010161483", "fromwhichsys": "1", "agree": "1", "password": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "nickname": "jinghua", "verifycode": "123456", "verifyCode": "455213", "appVer": "94", "appType": "1", "verifyPassword": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1, "msg": "验证码不正确。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/register
+{"mobilephone": "18010161483", "fromwhichsys": "1", "agree": "1", "password": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "nickname": "jinghua", "nickName": "*&\u2026\u2026%&**\u2026\u2026\u2026\u2026&", "verifycode": "123456", "verifyCode": "455213", "appVer": "94", "appType": "1", "verifyPassword": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1, "msg": "验证码不正确。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/register
+{"mobilephone": "18010161483", "fromwhichsys": "1", "agree": "1", "password": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "nickname": "jinghua", "nickName": "*&\u2026\u2026%&**\u2026\u2026\u2026\u2026&", "verifycode": "$%^&*(&^%$%", "verifyCode": "455213", "appVer": "94", "appType": "1", "verifyPassword": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1, "msg": "验证码不正确。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/register
+{"mobilephone": "18010161483", "fromwhichsys": "1", "agree": "1", "password": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "nickname": "jinghua", "nickName": "*&\u2026\u2026%&**\u2026\u2026\u2026\u2026&", "verifycode": "1234567", "verifyCode": "455213", "appVer": "94", "appType": "1", "verifyPassword": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1, "msg": "验证码不正确。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/login
+{"mobilephone": "18788776756", "returnvalue": "msg\": \"\u7528\u6237\u672a\u6ce8\u518c\u6216\u5df2\u5931\u6548", "password": "qaz123", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1003, "msg": "用户未注册或已失效。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/login
+{"mobilephone": "18788776756", "returnvalue": "\u5bc6\u7801\u9519\u8bef", "password": "qaz 123", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1003, "msg": "用户未注册或已失效。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/login
+{"mobilephone": "15801205322", "returnvalue": "msg\": \"\u767b\u5f55\u6210\u529f", "password": "qaz 123", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1002, "msg": "手机号或密码错误，您还有4次重试机会。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/login
+{"mobilephone": "15801205322", "returnvalue": "msg\":\"\u624b\u673a\u53f7\u6216\u5bc6\u7801\u9519\u8bef\uff0c\u60a8\u8fd8\u67094\u6b21\u91cd\u8bd5\u673a\u4f1a", "password": "", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1002, "msg": "手机号或密码错误，您还有3次重试机会。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/login
+{"mobilephone": "^&**^&*^12321", "returnvalue": "msg\": \"\u60a8\u7684\u5e10\u53f7\u5df2\u88ab\u9501\u5b9a", "password": "", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1003, "msg": "用户未注册或已失效。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/login
+{"mobilephone": "18010161483", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "password": "", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "appType": "1", "userId": "b290d1046e194a8b52dfbbd525edb47e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceType": "Android", "appVer": "94"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1002, "msg": "手机号或密码错误，您还有4次重试机会。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/resetpass
+{"mobilephone": "18010161483", "verifyPassword": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "verifycode": "123456", "verifyCode": "455213", "appVer": "94", "appType": "1", "password": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1, "msg": "验证码不正确。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/resetpass
+{"mobilephone": "18010161483", "verifyPassword": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "verifycode": "$%^&*(&^%$%", "verifyCode": "455213", "appVer": "94", "appType": "1", "password": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1, "msg": "验证码不正确。"}
+Request succeeded.
+---------------------------------------------------------------------------
+2016-05-27 17:19:01
+http://t.a.jzsec.com/system/resetpass
+{"mobilephone": "18010161483", "verifyPassword": "qaz123", "envType": "1", "returnvalue": "msg\": \"\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e", "token": "80ca25a96ef19b880309967031e4ded5", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "verifycode": "1234567", "verifyCode": "455213", "appVer": "94", "appType": "1", "password": "qaz123", "userId": "b290d1046e194a8b52dfbbd525edb47e", "deviceType": "Android"}
+2016-05-27 17:19:01
+
+200
+{"data": [{"result": 0}], "code": -1, "msg": "验证码不正确。"}
+Request succeeded.

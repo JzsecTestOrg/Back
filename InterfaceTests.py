@@ -16,16 +16,16 @@ class InterfaceTests:
     def __init__(self):
 
         #测试环境
-        # self.bappurl='http://t.a.jzsec.com'
-        # self.cappurl='http://t.c.jzsec.com'
-        # self.mobilephone='18010161483'
-        # self.password='qaz123'
-
-        #开发环境
-        self.cappurl='http://capp.tlan.com.cn'
-        self.bappurl='http://bapp.tlan.com.cn'
+        self.bappurl='http://t.a.jzsec.com'
+        self.cappurl='http://t.c.jzsec.com'
         self.mobilephone='18010161483'
         self.password='qaz123'
+
+        #开发环境
+        # self.cappurl='http://capp.tlan.com.cn'
+        # self.bappurl='http://bapp.tlan.com.cn'
+        # self.mobilephone='18010161483'
+        # self.password='qaz123'
 
         self.cappmobilephone='13300000008'
         self.capppassword='qaz123'
@@ -154,8 +154,8 @@ class InterfaceTests:
             print(json.dumps(params))
             file= "bapp" + "_" + datetime.datetime.today().strftime('%Y_%m_%d_%H') + '.log'
             log=open('./log/' + file, 'a')
-            logerr=open('./log/' + file + '.failed', 'a')
-            log500=open('./log/' + file + '.500', 'a')
+
+
             if log is not None and response.status_code == 200:
                 log.write('---------------------------------------------------------------------------\n')
                 log.write(datetime.datetime.today().strftime('%Y-%m-%d %H:%M:%S') + '\n')
@@ -163,6 +163,7 @@ class InterfaceTests:
                 log.write(json.dumps(params) + '\n')
 
             else:
+                log500=open('./log/' + file + '.500', 'a')
                 log500.write('---------------------------------------------------------------------------\n')
                 log500.write(datetime.datetime.today().strftime('%Y-%m-%d %H:%M:%S') + '\n')
                 log500.write(url + '\n')
@@ -223,6 +224,7 @@ class InterfaceTests:
                         log.write('Request succeeded.\n')
                     else:
                         print('Request failed.')
+                        logerr=open('./log/' + file + '.failed', 'a')
                         logerr.write('---------------------------------------------------------------------------\n')
                         logerr.write(datetime.datetime.today().strftime('%Y-%m-%d %H:%M:%S') + '\n')
                         logerr.write(url+ '\n')
