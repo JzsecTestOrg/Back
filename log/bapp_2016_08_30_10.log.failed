@@ -1,0 +1,868 @@
+---------------------------------------------------------------------------
+2016-08-30 10:10:58
+http://mt.jzsec.com/group/creategroup
+{"appVer": "118", "envType": "1", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "fe5b28befc8399f8ead91b80fef887e5", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "client_id": "kingbroker_b290d1046e194a8b52dfbbd525edb47e", "client_ids": ["imaster_6", "imaster_5", "imaster_4"], "mobilephone": "18010161483", "appType": "1", "returnvalue": "msg\": \"\u4f60\u7ba1\u7406\u7684\u7fa4\u7ec4\u6570\u8fc7\u591a\uff0c\u65e0\u6cd5\u7ee7\u7eed\u65b0\u5efa\u7fa4\u7ec4"}
+msg": "你管理的群组数过多，无法继续新建群组
+{"msg": "创建失败。", "data": [], "code": -4}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/listholdings
+{"appVer": "118", "envType": "0", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "code\": 0", "mobilephone": "13300000008", "appType": "11", "symbols": ["ABC888", "YCF886"]}
+code": 0
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/listholdings
+{"appVer": "118", "envType": "0", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u7ec4\u5408\u6301\u4ed3\u67e5\u8be2\u5b8c\u6bd5", "mobilephone": "13300000008", "appType": "11", "symbols": ["ABC888", "YCF886"]}
+msg": "组合持仓查询完毕
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/listmine
+{"appVer": "118", "envType": "0", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u6211\u7684\u7ec4\u5408\u5217\u8868\u67e5\u8be2\u6210\u529f", "mobilephone": "13300000008", "appType": "11"}
+msg": "我的组合列表查询成功
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/listmine
+{"appVer": "118", "envType": "0", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "code\": 0", "mobilephone": "13300000008", "appType": "11"}
+code": 0
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/addcomment
+{"appVer": "118", "deviceType": "Android", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "mobilephone": "13300000008", "envType": "0", "returnvalue": "msg\": \"\u4e0d\u80fd\u5bf9\u522b\u4eba\u7684\u7ec4\u5408\u53d1\u8868\u89c2\u70b9", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "symbol": "\u6b22\u8fce\u60a8\u6210\u4e3a\u7ecf\u7eaa\u5b9d\u6700\u73cd\u89c6\u7684\u4f19", "appType": "11", "content": "TQE888"}
+msg": "不能对别人的组合发表观点
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/addcomment
+{"appVer": "118", "deviceType": "Android", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "mobilephone": "13300000008", "envType": "0", "returnvalue": "code\": -10", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "symbol": "WCM886", "appType": "11", "content": "\u6b22\u8fce\u60a8\u6210\u4e3a\u7ecf\u7eaa\u5b9d\u6700\u73cd\u89c6\u7684\u4f19"}
+code": -10
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/addcomment
+{"appVer": "118", "deviceType": "Android", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "mobilephone": "13300000008", "envType": "0", "returnvalue": "msg\": \"\u4e0d\u80fd\u5bf9\u522b\u4eba\u7684\u7ec4\u5408\u53d1\u8868\u89c2\u70b9", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "symbol": "WCM886", "appType": "11", "content": "\u6b22\u8fce\u60a8\u6210\u4e3a\u7ecf\u7eaa\u5b9d\u6700\u73cd\u89c6\u7684\u4f19"}
+msg": "不能对别人的组合发表观点
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/listcomments
+{"appVer": "118", "envType": "0", "symbol": "WCM886", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "code\": 0", "mobilephone": "13300000008", "appType": "11"}
+code": 0
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/listcomments
+{"appVer": "118", "envType": "0", "symbol": "WCM886", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "WCM886", "mobilephone": "13300000008", "appType": "11"}
+WCM886
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/listcomments
+{"appVer": "118", "envType": "0", "symbol": "WCM886", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "status\": \"1", "mobilephone": "13300000008", "appType": "11"}
+status": "1
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/listcomments
+{"appVer": "118", "envType": "0", "symbol": "WCM886", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u89c2\u70b9\u5217\u8868\u67e5\u8be2\u6210\u529f", "mobilephone": "13300000008", "appType": "11"}
+msg": "观点列表查询成功
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/addfavourite
+{"appVer": "118", "envType": "0", "symbol": "WCM886", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "code\": 0", "mobilephone": "13300000008", "appType": "11"}
+code": 0
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:04
+http://mt.jzsec.com/portfolio/addfavourite
+{"appVer": "118", "envType": "0", "symbol": "WCM886", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u5df2\u5173\u6ce8\u8be5\u7ec4\u5408", "mobilephone": "13300000008", "appType": "11"}
+msg": "已关注该组合
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:05
+http://mt.jzsec.com/portfolio/deletefavourite
+{"appVer": "118", "envType": "0", "symbol": "WCM886", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "code\": 0", "mobilephone": "13300000008", "appType": "11"}
+code": 0
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:05
+http://mt.jzsec.com/portfolio/deletefavourite
+{"appVer": "118", "envType": "0", "symbol": "WCM886", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u672a\u5173\u6ce8\u8be5\u7ec4\u5408", "mobilephone": "13300000008", "appType": "11"}
+msg": "未关注该组合
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:14
+http://mt.jzsec.com/portfolio/listall
+{"appVer": "118", "envType": "0", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "code\": 0", "mobilephone": "13300000008", "appType": "11"}
+code": 0
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:14
+http://mt.jzsec.com/portfolio/listall
+{"appVer": "118", "envType": "0", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u5217\u8868\u67e5\u8be2\u6210\u529f", "mobilephone": "13300000008", "appType": "11"}
+msg": "列表查询成功
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:14
+http://mt.jzsec.com/portfolio/rebalancinghistories
+{"appVer": "118", "envType": "0", "symbol": "WCM886", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "code\": 0", "mobilephone": "13300000008", "appType": "11"}
+code": 0
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:14
+http://mt.jzsec.com/portfolio/rebalancinghistories
+{"appVer": "118", "envType": "0", "symbol": "WCM886", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "returnvalue": "WCM886", "mobilephone": "13300000008", "appType": "11"}
+WCM886
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:15
+http://t.a.jzsec.com/followdone/followdones
+{"appVer": "118", "envType": "1", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "flag": "1", "token": "fe5b28befc8399f8ead91b80fef887e5", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"success", "mobilephone": "18010161483", "appType": "1"}
+msg": "success
+{"msg": "无需更新", "data": [{"result": 0}], "code": 100}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:16
+http://t.a.jzsec.com/bkpi/gethistorykpi
+{"appVer": "118", "envType": "1", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "fe5b28befc8399f8ead91b80fef887e5", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u8bf7\u6c42\u6210\u529f\uff01", "mobilephone": "18010161483", "appType": "1"}
+msg": "请求成功！
+{"msg": "请求失败，暂无相关数据！", "data": [], "code": 0}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:26
+http://t.a.jzsec.com/system/editinfo
+{"appVer": "118", "deviceType": "Android", "issue_authority": "\u6e58\u6f6d\u5e02\u516c\u5b89\u5c40\u96e8\u6e56\u5206\u5c40", "token": "fe5b28befc8399f8ead91b80fef887e5", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "400-654321-8", "mobilephone": "18010161483", "name": "\u8d56\u7389\u65fa", "identityNum": "362103198308130210", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "sex": "1", "appType": "1", "validity": "2006.10.01-2016.10.01"}
+400-654321-8
+{"msg": "您的身份信息及从业资格已通过审核，无法进行修改。如有疑问请致电客服：95305。", "data": [{"result": 0}], "code": 2}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:29
+http://t.a.jzsec.com/jointtrain/showchapter
+{"appVer": "118", "envType": "1", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "cust_client_id": "imaster_9", "token": "fe5b28befc8399f8ead91b80fef887e5", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u5df2\u7ecf\u5b8c\u6210\u672c\u7ae0\u8282", "mobilephone": "18010161483", "appType": "1", "chapterId": "1"}
+msg": "已经完成本章节
+{"msg": "培训时间到，开始答题", "data": [{"result": 0}], "code": -3}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:30
+http://t.a.jzsec.com/buser/uploadconfirm
+{"appVer": "118", "envType": "1", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "fe5b28befc8399f8ead91b80fef887e5", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u672c\u4eba\u5934\u50cf\u7167\u7247\u7f3a\u5931\u6216\u8005\u65e0\u6548\uff0c\u8bf7\u91cd\u65b0\u4e0a\u4f20", "mobilephone": "18010161483", "role_id": "25", "appType": "1"}
+msg": "本人头像照片缺失或者无效，请重新上传
+{"msg": "状态更新完毕。", "data": [{"result": 0}], "code": 0}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:32
+http://t.c.jzsec.com/cuser/getmobilephone
+{"appVer": "118", "envType": "1", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "custId": "81106500008", "returnvalue": "code\": 0", "mobilephone": "13300000008", "appType": "1"}
+code": 0
+{"msg": "没有匹配数据！", "data": [{"result": 0}], "code": -1}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:32
+http://t.c.jzsec.com/cuser/getmobilephone
+{"appVer": "118", "envType": "1", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "custId": "81106500008", "returnvalue": "loginmobile\": \"13300000010", "mobilephone": "13300000008", "appType": "1"}
+loginmobile": "13300000010
+{"msg": "没有匹配数据！", "data": [{"result": 0}], "code": -1}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:33
+http://t.c.jzsec.com/newshare/input
+{"appVer": "118", "deviceType": "Android", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "token": "4f733789d2acc883c04d29190c685125", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "market": "0", "strdate": "20160210", "mobilephone": "13300000008", "stock_code": "002790", "enddate": "20160229", "envType": "1", "password": "qaz123", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "returnvalue": "code\": 0", "appType": "1", "custid": "81106500202"}
+code": 0
+{"msg": "客户可申购额度查询失败，请重试", "data": [], "code": -2}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:38
+http://t.c.jzsec.com/newshare/profile
+{"appVer": "118", "deviceType": "Android", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "token": "4f733789d2acc883c04d29190c685125", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "market": "0", "strdate": "20160210", "mobilephone": "13300000008", "stock_code": "002790", "enddate": "20160229", "envType": "1", "password": "qaz123", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "returnvalue": "code\": 0", "appType": "1", "custid": "81106500202"}
+code": 0
+{"msg": "客户可申购额度查询失败，请重试", "data": [], "code": -2}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:38
+http://t.c.jzsec.com/newshare/f411560
+{"appVer": "118", "deviceType": "Android", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "token": "4f733789d2acc883c04d29190c685125", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "market": "0", "strdate": "20160210", "mobilephone": "13300000008", "stock_code": "002790", "enddate": "20160229", "envType": "1", "password": "qaz123", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "begindate": "20160210", "returnvalue": "code\": 0", "appType": "1", "custid": "81106500202"}
+code": 0
+{"msg": "新股申购中签历史查询失败", "data": -100, "code": -1}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:39
+http://t.c.jzsec.com/newshare/f411518
+{"appVer": "118", "deviceType": "Android", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "token": "4f733789d2acc883c04d29190c685125", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "market": "0", "strdate": "20160210", "mobilephone": "13300000008", "stock_code": "002790", "enddate": "20160229", "envType": "1", "password": "qaz123", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "begindate": "20160210", "returnvalue": "code\": 0", "appType": "1", "custid": "81106500202"}
+code": 0
+{"msg": "配号查询失败", "data": [], "code": -10}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:41
+http://t.c.jzsec.com/cuser/checkcustidbind
+{"appVer": "118", "envType": "1", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u6b64\u5ba2\u6237\u53f7\u5df2\u88ab133****0024\u5360\u7528\uff0c\u8bf7\u4f7f\u7528\u65b0\u5ba2\u6237\u53f7", "cust_id": "81106500014", "mobilephone": "13300000008", "appType": "1"}
+msg": "此客户号已被133****0024占用，请使用新客户号
+{"msg": "此客户号已被139****7297占用，请使用新客户号", "data": [{"result": 0}], "code": 1}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:41
+http://t.c.jzsec.com/cuser/bindnewcustid
+{"appVer": "118", "envType": "1", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "123457", "returnvalue": "msg\": \"\u5ba2\u6237\u53f7\u4e0d\u5b58\u5728", "cust_id": "101", "mobilephone": "13300000008", "appType": "1"}
+msg": "客户号不存在
+{"msg": "您正在开户中或已拥有其他客户号", "data": [{"result": 0}], "code": 1}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:41
+http://t.c.jzsec.com/cuser/getcustid
+{"appVer": "118", "envType": "1", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "1483", "returnvalue": "code\": -2", "mobilephone": "13300000008", "appType": "1"}
+code": -2
+{"msg": "", "data": {"id": "7347", "district": "城西区", "funds": [{"id": "5696", "idtype": "00", "identity_checkstat": "c", "fund_bal": "0.00000", "cust_from_isCompany": "0", "custname": "投资大师13300000008", "status": "401", "cust_id": "81106500003", "idno": "43062419900818361X", "fund_id": "81106500003", "create_time": "2015-08-21 18:18:36", "commission": "0.00015000", "idenddate": "2055-05-05", "finish_time": "2016-03-20 15:24:45", "mobileno": "13300000008", "apply_time": "2016-03-20 15:24:45", "native": "长沙市开福区四方坪红色渔业队1号", "sd_status": "visitsurvey", "update_time": "2016-07-16 00:01:24", "customer_type": "", "c_user_id": "7347", "idbegindate": "2005-05-05", "singleflag": "0", "nationality": "156", "sd_id": "101963", "last_set_time": "0000-00-00 00:00:00"}], "address": "青海省西宁市城西区西关大街19号海一大厦9楼", "job": "", "display_nick": "1", "token": "4f733789d2acc883c04d29190c685125", "avater_url": "", "loginmobile": "13300000008", "type": "1", "company": "", "mute": "1", "addr": "河北省张家口市万全县孔家庄镇工业街南万兴小区0号楼1单元202室", "roleName": "西宁市西关路营业部", "avater": "", "fromwhichsys": "1012", "aux_contact_phone": "", "userId": "7347", "sex": "1", "is_default_nickname": "1", "status": "401", "nickname": "", "roleCode": "811", "role": 19, "qrcode_attc": "", "city": "西宁市", "password": "34f85ca80ec353d3052b8a2d3973a0c5", "province": "青海", "mobilephone": "0", "bapp_broker_time": "2015-09-10 10:59:23", "client_id": "imaster_7347", "role_type": "0", "bapp_broker_id": "6b4f9f85012b304979c9413300000008", "last_login": "2015-09-14 10:45:38", "create_time": "2015-09-14 10:45:38", "update_time": "2016-06-23 11:29:01", "birthday": "1977-07-17", "truename": "投资大师13300000008", "credit_fund": [], "create_play_count": "0", "buser": {"roleCity": "", "job": "", "contract_end_time": "", "authority": "1.向客户介绍证券公司和证券市场的基本情况；\n2.向客户介绍证券投资的基本知识及开户，交易，资金存取等业务流程；\n3.向客户介绍与证券交易有关的法律、行政法规、证监会规定、自律规则和证券公司的有关规定；\n4.向客户传递由证券公司统一提供的研究报告及与证券投资有关的信息；\n5.向客户传递由证券公司统一提供的证券类金融产品宣传推介材料及有关信息；\n6.法律、行政法规和证监会规定证券经纪人可以从事的其他活动；", "validity_start": "0000-00-00 00:00:00", "education": "", "conv_id": "", "roleName": "", "status": 4, "role": 0, "birthday": "0000-00-00 00:00:00", "sex": "1", "avater": "", "mobilephone": "95305", "nationalism": "汉族", "address": "", "passsword": "b1132aa640bd78495f38f611d7cc0d19", "sac_id": "", "bid": "gggggggggggggggggggggggggggggggg", "client_id": "kingbroker_gggggggggggggggggggggggggggggggg", "b_user_name": "经纪宝", "can_broke": 1, "name": "经纪宝", "roleProvince": "", "broker_level": 1, "region": "", "come_from": 1011, "sac_addr": "", "mail": "", "roleDistrict": "", "roleCode": "", "roleAddress": ""}, "aux_contact_name": "1", "join_play_count": "0"}, "code": 0}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:41
+http://t.c.jzsec.com/cuser/checkcanopen
+{"appVer": "118", "deviceType": "Android", "province": "\u5317\u4eac", "token": "4f733789d2acc883c04d29190c685125", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u60a8\u66fe\u5728\u4e5d\u5dde\u8bc1\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e0b\u8f96\u8425\u4e1a\u90e8\u5f00\u7acb\u8fc7\u5ba2\u6237\u8d26\u6237\uff0c\u8bf7\u4f7f\u7528\u8be5\u5e10\u6237", "mobilephone": "13300000008", "roleName": "\u5317\u4eac\u5206\u516c\u53f8", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "custname": "\u738b\u5c0f\u4e09", "appType": "1", "idno": "80310000049"}
+msg": "您曾在九州证券股份有限公司下辖营业部开立过客户账户，请使用该帐户
+{"msg": "允许开户", "data": [{"result": 0}], "code": 0}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:41
+http://mt.jzsec.com/portfolio/rebalancinghistoriespaged
+{"appVer": "118", "page": "1", "deviceType": "Android", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "mobilephone": "13300000008", "envType": "0", "returnvalue": "pageSize\": \"5", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "symbol": "WCM886", "appType": "11", "pageSize": "5"}
+pageSize": "5
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:41
+http://mt.jzsec.com/portfolio/rebalancinghistoriespaged
+{"appVer": "118", "page": "1", "deviceType": "Android", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "mobilephone": "13300000008", "envType": "0", "returnvalue": "pageSize\": \"10", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "symbol": "WCM886", "appType": "11", "pageSize": "10"}
+pageSize": "10
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:41
+http://mt.jzsec.com/portfolio/rebalancinghistoriespaged
+{"appVer": "118", "page": "1000", "deviceType": "Android", "token": "4f733789d2acc883c04d29190c685125", "userId": "7347", "client_id": "imaster_7347", "mobilephone": "13300000008", "envType": "0", "returnvalue": "page\": \"1000", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "symbol": "WCM886", "appType": "11", "pageSize": "10"}
+page": "1000
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:41
+http://mt.jzsec.com/portfolio/search
+{"appVer": "118", "deviceType": "Android", "token": "4f733789d2acc883c04d29190c685125", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "client_id": "kingbroker_b290d1046e194a8b52dfbbd525edb47e", "mobilephone": "13300000008", "envType": "0", "returnvalue": "symbol\": \"YZT", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "input": "Z", "symbol": "WCM886", "appType": "11"}
+symbol": "YZT
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:41
+http://mt.jzsec.com/portfolio/search
+{"appVer": "118", "deviceType": "Android", "token": "4f733789d2acc883c04d29190c685125", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "client_id": "kingbroker_b290d1046e194a8b52dfbbd525edb47e", "mobilephone": "13300000008", "envType": "0", "returnvalue": "msg\": \"\u6210\u529f", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "input": "\u5728", "symbol": "WCM886", "appType": "11"}
+msg": "成功
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:11:41
+http://t.c.jzsec.com/cuser/getfreshidstatus
+{"appVer": "118", "envType": "0", "deviceType": "Android", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "4f733789d2acc883c04d29190c685125", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"success", "mobilephone": "13300000008", "appType": "11"}
+msg": "success
+{"msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1, "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "updateVer": "184", "channelUrl": "", "pakName": "", "apiVer": 0}, "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:47
+http://mt.jzsec.com/group/creategroup
+{"appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "18010161483", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u4f60\u7ba1\u7406\u7684\u7fa4\u7ec4\u6570\u8fc7\u591a\uff0c\u65e0\u6cd5\u7ee7\u7eed\u65b0\u5efa\u7fa4\u7ec4", "token": "8ada1fc83557f12bafa8fe0c553599e3", "client_ids": ["imaster_6", "imaster_5", "imaster_4"], "client_id": "kingbroker_b290d1046e194a8b52dfbbd525edb47e"}
+msg": "你管理的群组数过多，无法继续新建群组
+{"code": -4, "msg": "创建失败。", "data": []}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/listholdings
+{"appVer": "118", "deviceType": "Android", "appType": "11", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "code\": 0", "token": "5988cd60084607a00626b142b5f4594b", "symbols": ["ABC888", "YCF886"], "client_id": "imaster_7347"}
+code": 0
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/listholdings
+{"appVer": "118", "deviceType": "Android", "appType": "11", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "msg\": \"\u7ec4\u5408\u6301\u4ed3\u67e5\u8be2\u5b8c\u6bd5", "token": "5988cd60084607a00626b142b5f4594b", "symbols": ["ABC888", "YCF886"], "client_id": "imaster_7347"}
+msg": "组合持仓查询完毕
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/listmine
+{"appVer": "118", "deviceType": "Android", "appType": "11", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "msg\": \"\u6211\u7684\u7ec4\u5408\u5217\u8868\u67e5\u8be2\u6210\u529f", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+msg": "我的组合列表查询成功
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/listmine
+{"appVer": "118", "deviceType": "Android", "appType": "11", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "code\": 0", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+code": 0
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/addcomment
+{"content": "TQE888", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "msg\": \"\u4e0d\u80fd\u5bf9\u522b\u4eba\u7684\u7ec4\u5408\u53d1\u8868\u89c2\u70b9", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347", "appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "\u6b22\u8fce\u60a8\u6210\u4e3a\u7ecf\u7eaa\u5b9d\u6700\u73cd\u89c6\u7684\u4f19", "envType": "0"}
+msg": "不能对别人的组合发表观点
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/addcomment
+{"content": "\u6b22\u8fce\u60a8\u6210\u4e3a\u7ecf\u7eaa\u5b9d\u6700\u73cd\u89c6\u7684\u4f19", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "code\": -10", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347", "appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0"}
+code": -10
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/addcomment
+{"content": "\u6b22\u8fce\u60a8\u6210\u4e3a\u7ecf\u7eaa\u5b9d\u6700\u73cd\u89c6\u7684\u4f19", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "msg\": \"\u4e0d\u80fd\u5bf9\u522b\u4eba\u7684\u7ec4\u5408\u53d1\u8868\u89c2\u70b9", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347", "appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0"}
+msg": "不能对别人的组合发表观点
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/listcomments
+{"appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "code\": 0", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+code": 0
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/listcomments
+{"appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "WCM886", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+WCM886
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/listcomments
+{"appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "status\": \"1", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+status": "1
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/listcomments
+{"appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "msg\": \"\u89c2\u70b9\u5217\u8868\u67e5\u8be2\u6210\u529f", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+msg": "观点列表查询成功
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/addfavourite
+{"appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "code\": 0", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+code": 0
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/addfavourite
+{"appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "msg\": \"\u5df2\u5173\u6ce8\u8be5\u7ec4\u5408", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+msg": "已关注该组合
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/deletefavourite
+{"appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "code\": 0", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+code": 0
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:16:52
+http://mt.jzsec.com/portfolio/deletefavourite
+{"appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "msg\": \"\u672a\u5173\u6ce8\u8be5\u7ec4\u5408", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+msg": "未关注该组合
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:02
+http://mt.jzsec.com/portfolio/listall
+{"appVer": "118", "deviceType": "Android", "appType": "11", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "code\": 0", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+code": 0
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:02
+http://mt.jzsec.com/portfolio/listall
+{"appVer": "118", "deviceType": "Android", "appType": "11", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "msg\": \"\u5217\u8868\u67e5\u8be2\u6210\u529f", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+msg": "列表查询成功
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:02
+http://mt.jzsec.com/portfolio/rebalancinghistories
+{"appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "code\": 0", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+code": 0
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:02
+http://mt.jzsec.com/portfolio/rebalancinghistories
+{"appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "WCM886", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347"}
+WCM886
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:03
+http://t.a.jzsec.com/followdone/followdones
+{"appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "18010161483", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"success", "token": "8ada1fc83557f12bafa8fe0c553599e3", "flag": "1"}
+msg": "success
+{"code": 100, "msg": "无需更新", "data": [{"result": 0}]}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:03
+http://t.a.jzsec.com/bkpi/gethistorykpi
+{"appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "18010161483", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u8bf7\u6c42\u6210\u529f\uff01", "token": "8ada1fc83557f12bafa8fe0c553599e3"}
+msg": "请求成功！
+{"code": 0, "msg": "请求失败，暂无相关数据！", "data": []}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:12
+http://t.a.jzsec.com/system/editinfo
+{"userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "validity": "2006.10.01-2016.10.01", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "18010161483", "identityNum": "362103198308130210", "returnvalue": "400-654321-8", "token": "8ada1fc83557f12bafa8fe0c553599e3", "name": "\u8d56\u7389\u65fa", "appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "issue_authority": "\u6e58\u6f6d\u5e02\u516c\u5b89\u5c40\u96e8\u6e56\u5206\u5c40", "sex": "1"}
+400-654321-8
+{"code": 2, "msg": "您的身份信息及从业资格已通过审核，无法进行修改。如有疑问请致电客服：95305。", "data": [{"result": 0}]}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:15
+http://t.a.jzsec.com/jointtrain/showchapter
+{"cust_client_id": "imaster_9", "appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "18010161483", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u5df2\u7ecf\u5b8c\u6210\u672c\u7ae0\u8282", "token": "8ada1fc83557f12bafa8fe0c553599e3", "chapterId": "1"}
+msg": "已经完成本章节
+{"code": -3, "msg": "培训时间到，开始答题", "data": [{"result": 0}]}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:15
+http://t.a.jzsec.com/buser/uploadconfirm
+{"appVer": "118", "role_id": "25", "deviceType": "Android", "appType": "1", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "18010161483", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u672c\u4eba\u5934\u50cf\u7167\u7247\u7f3a\u5931\u6216\u8005\u65e0\u6548\uff0c\u8bf7\u91cd\u65b0\u4e0a\u4f20", "token": "8ada1fc83557f12bafa8fe0c553599e3"}
+msg": "本人头像照片缺失或者无效，请重新上传
+{"code": 0, "msg": "状态更新完毕。", "data": [{"result": 0}]}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:18
+http://t.c.jzsec.com/cuser/getmobilephone
+{"appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "custId": "81106500008", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "code\": 0", "token": "5988cd60084607a00626b142b5f4594b"}
+code": 0
+{"code": -1, "msg": "没有匹配数据！", "data": [{"result": 0}]}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:18
+http://t.c.jzsec.com/cuser/getmobilephone
+{"appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "custId": "81106500008", "mobilephone": "13300000008", "userId": "7347", "returnvalue": "loginmobile\": \"13300000010", "token": "5988cd60084607a00626b142b5f4594b"}
+loginmobile": "13300000010
+{"code": -1, "msg": "没有匹配数据！", "data": [{"result": 0}]}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:18
+http://t.c.jzsec.com/newshare/input
+{"stock_code": "002790", "enddate": "20160229", "password": "qaz123", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "returnvalue": "code\": 0", "mobilephone": "13300000008", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "token": "5988cd60084607a00626b142b5f4594b", "strdate": "20160210", "market": "0", "appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "custid": "81106500202"}
+code": 0
+{"code": -2, "msg": "客户可申购额度查询失败，请重试", "data": []}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:18
+http://t.c.jzsec.com/newshare/profile
+{"stock_code": "002790", "enddate": "20160229", "password": "qaz123", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "returnvalue": "code\": 0", "mobilephone": "13300000008", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "token": "5988cd60084607a00626b142b5f4594b", "strdate": "20160210", "market": "0", "appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "custid": "81106500202"}
+code": 0
+{"code": -2, "msg": "客户可申购额度查询失败，请重试", "data": []}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:18
+http://t.c.jzsec.com/newshare/f411560
+{"stock_code": "002790", "enddate": "20160229", "password": "qaz123", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "returnvalue": "code\": 0", "mobilephone": "13300000008", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "token": "5988cd60084607a00626b142b5f4594b", "strdate": "20160210", "market": "0", "appVer": "118", "deviceType": "Android", "appType": "1", "begindate": "20160210", "envType": "1", "custid": "81106500202"}
+code": 0
+{"code": -1, "msg": "新股申购中签历史查询失败", "data": -100}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:19
+http://t.c.jzsec.com/newshare/f411518
+{"stock_code": "002790", "enddate": "20160229", "password": "qaz123", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "returnvalue": "code\": 0", "mobilephone": "13300000008", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "token": "5988cd60084607a00626b142b5f4594b", "strdate": "20160210", "market": "0", "appVer": "118", "deviceType": "Android", "appType": "1", "begindate": "20160210", "envType": "1", "custid": "81106500202"}
+code": 0
+{"code": -10, "msg": "配号查询失败", "data": []}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:24
+http://t.c.jzsec.com/cuser/checkcustidbind
+{"appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "returnvalue": "msg\": \"\u6b64\u5ba2\u6237\u53f7\u5df2\u88ab133****0024\u5360\u7528\uff0c\u8bf7\u4f7f\u7528\u65b0\u5ba2\u6237\u53f7", "mobilephone": "13300000008", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "cust_id": "81106500014", "token": "5988cd60084607a00626b142b5f4594b"}
+msg": "此客户号已被133****0024占用，请使用新客户号
+{"code": 1, "msg": "此客户号已被139****7297占用，请使用新客户号", "data": [{"result": 0}]}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:24
+http://t.c.jzsec.com/cuser/bindnewcustid
+{"appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "returnvalue": "msg\": \"\u5ba2\u6237\u53f7\u4e0d\u5b58\u5728", "mobilephone": "13300000008", "userId": "123457", "cust_id": "101", "token": "5988cd60084607a00626b142b5f4594b"}
+msg": "客户号不存在
+{"code": 1, "msg": "您正在开户中或已拥有其他客户号", "data": [{"result": 0}]}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:25
+http://t.c.jzsec.com/cuser/getcustid
+{"appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "1483", "returnvalue": "code\": -2", "token": "5988cd60084607a00626b142b5f4594b"}
+code": -2
+{"code": 0, "msg": "", "data": {"address": "青海省西宁市城西区西关大街19号海一大厦9楼", "aux_contact_name": "1", "password": "34f85ca80ec353d3052b8a2d3973a0c5", "mobilephone": "0", "avater_url": "", "bapp_broker_id": "6b4f9f85012b304979c9413300000008", "company": "", "loginmobile": "13300000008", "display_nick": "1", "funds": [{"fund_id": "81106500003", "fund_bal": "0.00000", "idbegindate": "2005-05-05", "identity_checkstat": "c", "singleflag": "0", "native": "长沙市开福区四方坪红色渔业队1号", "mobileno": "13300000008", "sd_status": "visitsurvey", "finish_time": "2016-03-20 15:24:45", "idenddate": "2055-05-05", "nationality": "156", "customer_type": "", "commission": "0.00015000", "idno": "43062419900818361X", "custname": "投资大师13300000008", "idtype": "00", "create_time": "2015-08-21 18:18:36", "c_user_id": "7347", "cust_from_isCompany": "0", "update_time": "2016-07-16 00:01:24", "apply_time": "2016-03-20 15:24:45", "status": "401", "sd_id": "101963", "cust_id": "81106500003", "id": "5696", "last_set_time": "0000-00-00 00:00:00"}], "type": "1", "nickname": "", "truename": "投资大师13300000008", "token": "5988cd60084607a00626b142b5f4594b", "city": "西宁市", "roleName": "西宁市西关路营业部", "role": 19, "create_play_count": "0", "fromwhichsys": "1012", "job": "", "qrcode_attc": "", "avater": "", "province": "青海", "role_type": "0", "aux_contact_phone": "", "create_time": "2015-09-14 10:45:38", "userId": "7347", "credit_fund": [], "district": "城西区", "bapp_broker_time": "2015-09-10 10:59:23", "join_play_count": "0", "addr": "河北省张家口市万全县孔家庄镇工业街南万兴小区0号楼1单元202室", "roleCode": "811", "update_time": "2016-06-23 11:29:01", "last_login": "2015-09-14 10:45:38", "birthday": "1977-07-17", "client_id": "imaster_7347", "status": "401", "mute": "1", "buser": {"roleCity": "", "bid": "gggggggggggggggggggggggggggggggg", "contract_end_time": "", "mobilephone": "95305", "client_id": "kingbroker_gggggggggggggggggggggggggggggggg", "name": "经纪宝", "roleCode": "", "conv_id": "", "roleProvince": "", "sac_id": "", "address": "", "education": "", "status": 4, "roleName": "", "authority": "1.向客户介绍证券公司和证券市场的基本情况；\n2.向客户介绍证券投资的基本知识及开户，交易，资金存取等业务流程；\n3.向客户介绍与证券交易有关的法律、行政法规、证监会规定、自律规则和证券公司的有关规定；\n4.向客户传递由证券公司统一提供的研究报告及与证券投资有关的信息；\n5.向客户传递由证券公司统一提供的证券类金融产品宣传推介材料及有关信息；\n6.法律、行政法规和证监会规定证券经纪人可以从事的其他活动；", "mail": "", "role": 0, "b_user_name": "经纪宝", "job": "", "avater": "", "roleDistrict": "", "region": "", "sac_addr": "", "come_from": 1011, "can_broke": 1, "nationalism": "汉族", "roleAddress": "", "birthday": "0000-00-00 00:00:00", "broker_level": 1, "passsword": "b1132aa640bd78495f38f611d7cc0d19", "validity_start": "0000-00-00 00:00:00", "sex": "1"}, "is_default_nickname": "1", "id": "7347", "sex": "1"}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:25
+http://t.c.jzsec.com/cuser/checkcanopen
+{"idno": "80310000049", "province": "\u5317\u4eac", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u60a8\u66fe\u5728\u4e5d\u5dde\u8bc1\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e0b\u8f96\u8425\u4e1a\u90e8\u5f00\u7acb\u8fc7\u5ba2\u6237\u8d26\u6237\uff0c\u8bf7\u4f7f\u7528\u8be5\u5e10\u6237", "token": "5988cd60084607a00626b142b5f4594b", "appVer": "118", "deviceType": "Android", "appType": "1", "envType": "1", "roleName": "\u5317\u4eac\u5206\u516c\u53f8", "custname": "\u738b\u5c0f\u4e09"}
+msg": "您曾在九州证券股份有限公司下辖营业部开立过客户账户，请使用该帐户
+{"code": 0, "msg": "允许开户", "data": [{"result": 0}]}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:25
+http://mt.jzsec.com/portfolio/rebalancinghistoriespaged
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "page": "1", "returnvalue": "pageSize\": \"5", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347", "appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "pageSize": "5"}
+pageSize": "5
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:25
+http://mt.jzsec.com/portfolio/rebalancinghistoriespaged
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "page": "1", "returnvalue": "pageSize\": \"10", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347", "appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "pageSize": "10"}
+pageSize": "10
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:25
+http://mt.jzsec.com/portfolio/rebalancinghistoriespaged
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "page": "1000", "returnvalue": "page\": \"1000", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "imaster_7347", "appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0", "pageSize": "10"}
+page": "1000
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:25
+http://mt.jzsec.com/portfolio/search
+{"input": "Z", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "symbol\": \"YZT", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "kingbroker_b290d1046e194a8b52dfbbd525edb47e", "appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0"}
+symbol": "YZT
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:25
+http://mt.jzsec.com/portfolio/search
+{"input": "\u5728", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"\u6210\u529f", "token": "5988cd60084607a00626b142b5f4594b", "client_id": "kingbroker_b290d1046e194a8b52dfbbd525edb47e", "appVer": "118", "deviceType": "Android", "appType": "11", "symbol": "WCM886", "envType": "0"}
+msg": "成功
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:17:25
+http://t.c.jzsec.com/cuser/getfreshidstatus
+{"appVer": "118", "deviceType": "Android", "appType": "11", "envType": "0", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "mobilephone": "13300000008", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "returnvalue": "msg\": \"success", "token": "5988cd60084607a00626b142b5f4594b"}
+msg": "success
+{"code": -900, "msg": "投资大师已发布新版本，您的客户端需要升级。", "data": {"fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "updateVer": "184", "channelUrl": "", "apiVer": 0, "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "expire": 1}}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:25
+http://mt.jzsec.com/group/creategroup
+{"userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "1", "appType": "1", "client_id": "kingbroker_b290d1046e194a8b52dfbbd525edb47e", "returnvalue": "msg\": \"\u4f60\u7ba1\u7406\u7684\u7fa4\u7ec4\u6570\u8fc7\u591a\uff0c\u65e0\u6cd5\u7ee7\u7eed\u65b0\u5efa\u7fa4\u7ec4", "client_ids": ["imaster_6", "imaster_5", "imaster_4"], "appVer": "118", "mobilephone": "18010161483", "token": "6c793921c71bb6005777b6b42faab43c"}
+msg": "你管理的群组数过多，无法继续新建群组
+{"data": [], "msg": "创建失败。", "code": -4}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/listholdings
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "envType": "0", "appType": "11", "client_id": "imaster_7347", "symbols": ["ABC888", "YCF886"], "returnvalue": "code\": 0", "appVer": "118", "mobilephone": "13300000008", "deviceType": "Android"}
+code": 0
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/listholdings
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "envType": "0", "appType": "11", "client_id": "imaster_7347", "symbols": ["ABC888", "YCF886"], "returnvalue": "msg\": \"\u7ec4\u5408\u6301\u4ed3\u67e5\u8be2\u5b8c\u6bd5", "appVer": "118", "mobilephone": "13300000008", "deviceType": "Android"}
+msg": "组合持仓查询完毕
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/listmine
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u6211\u7684\u7ec4\u5408\u5217\u8868\u67e5\u8be2\u6210\u529f", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+msg": "我的组合列表查询成功
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/listmine
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "code\": 0", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+code": 0
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/addcomment
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "envType": "0", "client_id": "imaster_7347", "content": "TQE888", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "msg\": \"\u4e0d\u80fd\u5bf9\u522b\u4eba\u7684\u7ec4\u5408\u53d1\u8868\u89c2\u70b9", "userId": "7347", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "appType": "11", "symbol": "\u6b22\u8fce\u60a8\u6210\u4e3a\u7ecf\u7eaa\u5b9d\u6700\u73cd\u89c6\u7684\u4f19", "deviceType": "Android"}
+msg": "不能对别人的组合发表观点
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/addcomment
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "envType": "0", "client_id": "imaster_7347", "content": "\u6b22\u8fce\u60a8\u6210\u4e3a\u7ecf\u7eaa\u5b9d\u6700\u73cd\u89c6\u7684\u4f19", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "code\": -10", "userId": "7347", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "appType": "11", "symbol": "WCM886", "deviceType": "Android"}
+code": -10
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/addcomment
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "envType": "0", "client_id": "imaster_7347", "content": "\u6b22\u8fce\u60a8\u6210\u4e3a\u7ecf\u7eaa\u5b9d\u6700\u73cd\u89c6\u7684\u4f19", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "msg\": \"\u4e0d\u80fd\u5bf9\u522b\u4eba\u7684\u7ec4\u5408\u53d1\u8868\u89c2\u70b9", "userId": "7347", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "appType": "11", "symbol": "WCM886", "deviceType": "Android"}
+msg": "不能对别人的组合发表观点
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/listcomments
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "code\": 0", "symbol": "WCM886", "appVer": "118", "mobilephone": "13300000008", "deviceType": "Android"}
+code": 0
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/listcomments
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "WCM886", "symbol": "WCM886", "appVer": "118", "mobilephone": "13300000008", "deviceType": "Android"}
+WCM886
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/listcomments
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "status\": \"1", "symbol": "WCM886", "appVer": "118", "mobilephone": "13300000008", "deviceType": "Android"}
+status": "1
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/listcomments
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u89c2\u70b9\u5217\u8868\u67e5\u8be2\u6210\u529f", "symbol": "WCM886", "appVer": "118", "mobilephone": "13300000008", "deviceType": "Android"}
+msg": "观点列表查询成功
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/addfavourite
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "code\": 0", "symbol": "WCM886", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+code": 0
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:30
+http://mt.jzsec.com/portfolio/addfavourite
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u5df2\u5173\u6ce8\u8be5\u7ec4\u5408", "symbol": "WCM886", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+msg": "已关注该组合
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:31
+http://mt.jzsec.com/portfolio/deletefavourite
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "code\": 0", "symbol": "WCM886", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+code": 0
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:31
+http://mt.jzsec.com/portfolio/deletefavourite
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u672a\u5173\u6ce8\u8be5\u7ec4\u5408", "symbol": "WCM886", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+msg": "未关注该组合
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:40
+http://mt.jzsec.com/portfolio/listall
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "code\": 0", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+code": 0
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:40
+http://mt.jzsec.com/portfolio/listall
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "msg\": \"\u5217\u8868\u67e5\u8be2\u6210\u529f", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+msg": "列表查询成功
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:40
+http://mt.jzsec.com/portfolio/rebalancinghistories
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "code\": 0", "symbol": "WCM886", "appVer": "118", "mobilephone": "13300000008", "deviceType": "Android"}
+code": 0
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:40
+http://mt.jzsec.com/portfolio/rebalancinghistories
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "envType": "0", "appType": "11", "client_id": "imaster_7347", "returnvalue": "WCM886", "symbol": "WCM886", "appVer": "118", "mobilephone": "13300000008", "deviceType": "Android"}
+WCM886
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:41
+http://t.a.jzsec.com/followdone/followdones
+{"userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "1", "appType": "1", "returnvalue": "msg\": \"success", "flag": "1", "appVer": "118", "mobilephone": "18010161483", "token": "6c793921c71bb6005777b6b42faab43c"}
+msg": "success
+{"data": [{"result": 0}], "msg": "无需更新", "code": 100}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:41
+http://t.a.jzsec.com/bkpi/gethistorykpi
+{"userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "1", "appType": "1", "returnvalue": "msg\": \"\u8bf7\u6c42\u6210\u529f\uff01", "appVer": "118", "mobilephone": "18010161483", "token": "6c793921c71bb6005777b6b42faab43c"}
+msg": "请求成功！
+{"data": [], "msg": "请求失败，暂无相关数据！", "code": 0}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:25:59
+http://t.a.jzsec.com/system/editinfo
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "name": "\u8d56\u7389\u65fa", "envType": "1", "sex": "1", "appVer": "118", "mobilephone": "18010161483", "validity": "2006.10.01-2016.10.01", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceType": "Android", "appType": "1", "identityNum": "362103198308130210", "returnvalue": "400-654321-8", "issue_authority": "\u6e58\u6f6d\u5e02\u516c\u5b89\u5c40\u96e8\u6e56\u5206\u5c40", "token": "6c793921c71bb6005777b6b42faab43c"}
+400-654321-8
+{"data": [{"result": 0}], "msg": "您的身份信息及从业资格已通过审核，无法进行修改。如有疑问请致电客服：95305。", "code": 2}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:02
+http://t.a.jzsec.com/jointtrain/showchapter
+{"userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "cust_client_id": "imaster_9", "envType": "1", "appType": "1", "chapterId": "1", "returnvalue": "msg\": \"\u5df2\u7ecf\u5b8c\u6210\u672c\u7ae0\u8282", "appVer": "118", "mobilephone": "18010161483", "token": "6c793921c71bb6005777b6b42faab43c"}
+msg": "已经完成本章节
+{"data": [{"result": 0}], "msg": "培训时间到，开始答题", "code": -3}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:03
+http://t.a.jzsec.com/buser/uploadconfirm
+{"userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "role_id": "25", "envType": "1", "appType": "1", "returnvalue": "msg\": \"\u672c\u4eba\u5934\u50cf\u7167\u7247\u7f3a\u5931\u6216\u8005\u65e0\u6548\uff0c\u8bf7\u91cd\u65b0\u4e0a\u4f20", "appVer": "118", "mobilephone": "18010161483", "token": "6c793921c71bb6005777b6b42faab43c"}
+msg": "本人头像照片缺失或者无效，请重新上传
+{"data": [{"result": 0}], "msg": "状态更新完毕。", "code": 0}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:05
+http://t.c.jzsec.com/cuser/getmobilephone
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "custId": "81106500008", "envType": "1", "appType": "1", "returnvalue": "code\": 0", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+code": 0
+{"data": [{"result": 0}], "msg": "没有匹配数据！", "code": -1}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:05
+http://t.c.jzsec.com/cuser/getmobilephone
+{"userId": "7347", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "custId": "81106500008", "envType": "1", "appType": "1", "returnvalue": "loginmobile\": \"13300000010", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+loginmobile": "13300000010
+{"data": [{"result": 0}], "msg": "没有匹配数据！", "code": -1}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:05
+http://t.c.jzsec.com/cuser/sendresetpasscode
+{"userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "1", "appType": "1", "returnvalue": "msg\": \"\u53d1\u9001\u6210\u529f", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+msg": "发送成功
+{"data": {"title": "没收到短信？", "button": "获取语音验证码"}, "msg": "点击“获取语音验证码”，我们将以语音电话形式告知您验证码，请注意接听125909888601的来电", "code": -7}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:05
+http://t.c.jzsec.com/newshare/input
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "envType": "1", "password": "qaz123", "enddate": "20160229", "custid": "81106500202", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "code\": 0", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceType": "Android", "market": "0", "appType": "1", "strdate": "20160210", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "stock_code": "002790", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+code": 0
+{"data": [], "msg": "客户可申购额度查询失败，请重试", "code": -2}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:05
+http://t.c.jzsec.com/newshare/profile
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "envType": "1", "password": "qaz123", "enddate": "20160229", "custid": "81106500202", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "code\": 0", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceType": "Android", "market": "0", "appType": "1", "strdate": "20160210", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "stock_code": "002790", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+code": 0
+{"data": [], "msg": "客户可申购额度查询失败，请重试", "code": -2}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:05
+http://t.c.jzsec.com/newshare/f411560
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "envType": "1", "password": "qaz123", "enddate": "20160229", "custid": "81106500202", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "code\": 0", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceType": "Android", "market": "0", "appType": "1", "strdate": "20160210", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "begindate": "20160210", "stock_code": "002790", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+code": 0
+{"data": -100, "msg": "新股申购中签历史查询失败", "code": -1}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:05
+http://t.c.jzsec.com/newshare/f411518
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "envType": "1", "password": "qaz123", "enddate": "20160229", "custid": "81106500202", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "code\": 0", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceType": "Android", "market": "0", "appType": "1", "strdate": "20160210", "trdpwd": "g0JvSpX0Tx4SoCKVGPib3quuIazVkFzmf8bACPfQGxJ0jo1xRdK2Iiq3GP9ghYGoRR-khCX0POIWdChsL-y_cfXQ67m8WNYMYX7-DGdXrlhh5q3Krilnmjl5cDlqguyEFymVO6i-Cv47qn2D187GYkts3lAcvOQxn9_uDWZrgmU", "begindate": "20160210", "stock_code": "002790", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+code": 0
+{"data": [], "msg": "配号查询失败", "code": -10}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:11
+http://t.c.jzsec.com/cuser/checkcustidbind
+{"userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "1", "appType": "1", "returnvalue": "msg\": \"\u6b64\u5ba2\u6237\u53f7\u5df2\u88ab133****0024\u5360\u7528\uff0c\u8bf7\u4f7f\u7528\u65b0\u5ba2\u6237\u53f7", "cust_id": "81106500014", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+msg": "此客户号已被133****0024占用，请使用新客户号
+{"data": [{"result": 0}], "msg": "此客户号已被139****7297占用，请使用新客户号", "code": 1}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:11
+http://t.c.jzsec.com/cuser/bindnewcustid
+{"userId": "123457", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "1", "appType": "1", "returnvalue": "msg\": \"\u5ba2\u6237\u53f7\u4e0d\u5b58\u5728", "cust_id": "101", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+msg": "客户号不存在
+{"data": [{"result": 0}], "msg": "您正在开户中或已拥有其他客户号", "code": 1}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:12
+http://t.c.jzsec.com/cuser/getcustid
+{"userId": "1483", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "1", "appType": "1", "returnvalue": "code\": -2", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+code": -2
+{"data": {"status": "401", "avater_url": "", "create_time": "2015-09-14 10:45:38", "roleName": "西宁市西关路营业部", "addr": "河北省张家口市万全县孔家庄镇工业街南万兴小区0号楼1单元202室", "district": "城西区", "buser": {"conv_id": "", "status": 4, "nationalism": "汉族", "name": "经纪宝", "roleName": "", "validity_start": "0000-00-00 00:00:00", "region": "", "role": 0, "address": "", "mail": "", "education": "", "roleCode": "", "passsword": "b1132aa640bd78495f38f611d7cc0d19", "broker_level": 1, "b_user_name": "经纪宝", "avater": "", "authority": "1.向客户介绍证券公司和证券市场的基本情况；\n2.向客户介绍证券投资的基本知识及开户，交易，资金存取等业务流程；\n3.向客户介绍与证券交易有关的法律、行政法规、证监会规定、自律规则和证券公司的有关规定；\n4.向客户传递由证券公司统一提供的研究报告及与证券投资有关的信息；\n5.向客户传递由证券公司统一提供的证券类金融产品宣传推介材料及有关信息；\n6.法律、行政法规和证监会规定证券经纪人可以从事的其他活动；", "sex": "1", "client_id": "kingbroker_gggggggggggggggggggggggggggggggg", "can_broke": 1, "contract_end_time": "", "job": "", "birthday": "0000-00-00 00:00:00", "mobilephone": "95305", "roleAddress": "", "roleProvince": "", "sac_addr": "", "bid": "gggggggggggggggggggggggggggggggg", "come_from": 1011, "roleDistrict": "", "roleCity": "", "sac_id": ""}, "address": "青海省西宁市城西区西关大街19号海一大厦9楼", "role": 19, "aux_contact_name": "1", "funds": [{"native": "长沙市开福区四方坪红色渔业队1号", "id": "5696", "mobileno": "13300000008", "customer_type": "", "sd_id": "101963", "create_time": "2015-08-21 18:18:36", "update_time": "2016-07-16 00:01:24", "apply_time": "2016-03-20 15:24:45", "fund_bal": "0.00000", "idno": "43062419900818361X", "idtype": "00", "commission": "0.00015000", "sd_status": "visitsurvey", "status": "401", "cust_from_isCompany": "0", "c_user_id": "7347", "idenddate": "2055-05-05", "fund_id": "81106500003", "identity_checkstat": "c", "last_set_time": "0000-00-00 00:00:00", "custname": "投资大师13300000008", "finish_time": "2016-03-20 15:24:45", "idbegindate": "2005-05-05", "cust_id": "81106500003", "singleflag": "0", "nationality": "156"}], "aux_contact_phone": "", "bapp_broker_id": "6b4f9f85012b304979c9413300000008", "last_login": "2015-09-14 10:45:38", "qrcode_attc": "", "province": "青海", "roleCode": "811", "mute": "1", "id": "7347", "truename": "投资大师13300000008", "avater": "", "create_play_count": "0", "update_time": "2016-06-23 11:29:01", "join_play_count": "0", "password": "34f85ca80ec353d3052b8a2d3973a0c5", "sex": "1", "client_id": "imaster_7347", "type": "1", "display_nick": "1", "job": "", "birthday": "1977-07-17", "mobilephone": "0", "city": "西宁市", "role_type": "0", "fromwhichsys": "1012", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "company": "", "credit_fund": [], "bapp_broker_time": "2015-09-10 10:59:23", "nickname": "", "is_default_nickname": "1", "loginmobile": "13300000008", "userId": "7347"}, "msg": "", "code": 0}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:12
+http://t.c.jzsec.com/cuser/checkcanopen
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "roleName": "\u5317\u4eac\u5206\u516c\u53f8", "envType": "1", "province": "\u5317\u4eac", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "msg\": \"\u60a8\u66fe\u5728\u4e5d\u5dde\u8bc1\u5238\u80a1\u4efd\u6709\u9650\u516c\u53f8\u4e0b\u8f96\u8425\u4e1a\u90e8\u5f00\u7acb\u8fc7\u5ba2\u6237\u8d26\u6237\uff0c\u8bf7\u4f7f\u7528\u8be5\u5e10\u6237", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "custname": "\u738b\u5c0f\u4e09", "deviceType": "Android", "appType": "1", "idno": "80310000049", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+msg": "您曾在九州证券股份有限公司下辖营业部开立过客户账户，请使用该帐户
+{"data": [{"result": 0}], "msg": "允许开户", "code": 0}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:12
+http://mt.jzsec.com/portfolio/rebalancinghistoriespaged
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "pageSize": "5", "envType": "0", "client_id": "imaster_7347", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "pageSize\": \"5", "userId": "7347", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "appType": "11", "page": "1", "symbol": "WCM886", "deviceType": "Android"}
+pageSize": "5
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:12
+http://mt.jzsec.com/portfolio/rebalancinghistoriespaged
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "pageSize": "10", "envType": "0", "client_id": "imaster_7347", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "pageSize\": \"10", "userId": "7347", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "appType": "11", "page": "1", "symbol": "WCM886", "deviceType": "Android"}
+pageSize": "10
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:12
+http://mt.jzsec.com/portfolio/rebalancinghistoriespaged
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "pageSize": "10", "envType": "0", "client_id": "imaster_7347", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "page\": \"1000", "userId": "7347", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "appType": "11", "page": "1000", "symbol": "WCM886", "deviceType": "Android"}
+page": "1000
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:12
+http://mt.jzsec.com/portfolio/search
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "envType": "0", "client_id": "kingbroker_b290d1046e194a8b52dfbbd525edb47e", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "symbol\": \"YZT", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "appType": "11", "symbol": "WCM886", "input": "Z", "deviceType": "Android"}
+symbol": "YZT
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:12
+http://mt.jzsec.com/portfolio/search
+{"deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "envType": "0", "client_id": "kingbroker_b290d1046e194a8b52dfbbd525edb47e", "appVer": "118", "mobilephone": "13300000008", "returnvalue": "msg\": \"\u6210\u529f", "userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "token": "bdf13bbb6df031d6ba477acb8e7828c7", "appType": "11", "symbol": "WCM886", "input": "\u5728", "deviceType": "Android"}
+msg": "成功
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.
+---------------------------------------------------------------------------
+2016-08-30 10:26:12
+http://t.c.jzsec.com/cuser/getfreshidstatus
+{"userId": "198ae2cf5545dd0eeae4d0d9f8fe9151", "deviceCode": "1b05878197d42f6e99fec0e4f27ae886", "deviceType": "Android", "envType": "0", "appType": "11", "returnvalue": "msg\": \"success", "appVer": "118", "mobilephone": "13300000008", "token": "bdf13bbb6df031d6ba477acb8e7828c7"}
+msg": "success
+{"data": {"expire": 1, "updateVer": "184", "channelUrl": "", "fileMd5": "0c2ff4edb82b1a1baeb5645ca61752e3", "pakName": "", "updateUrl": "http://jingjibao.ufile.ucloud.cn/cb0c2ecea4bad8644fd677b1159b72d5.apk", "fileName": "imaster_2.8.0_005_20160810_test_vc184_5403.apk", "apiVer": 0}, "msg": "投资大师已发布新版本，您的客户端需要升级。", "code": -900}
+Request failed.

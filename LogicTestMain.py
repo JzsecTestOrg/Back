@@ -22,8 +22,9 @@ cid=[]
 url='http:\/\/w.url.cn\/s\/ALpa9Bo'
 #getappver=InterfaceTests()
 #print(Bapp.systemInit(iteration,mobilephone,envType,deviceType,"24",deviceCode,appType))
-appVer='94'
-cappver='98'
+appVer='118'
+#cappver='118'
+cappver='185'
 value='风风光光呵呵'
 key="address"
 mail="jinghuaj@126.com"
@@ -159,7 +160,7 @@ print(bapptoken)
 #IM获取好友列表
 
 Bapp.namelistGetfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,myClientId,"获取成功")
-Bapp.namelistGetfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,myClientId,"display_name\": \"投资客5084\"")
+Bapp.namelistGetfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,myClientId,"display_name\": \"互联网业务委员会-yes\"")
 Bapp.namelistGetfriendlist(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,myClientId,"status\": \"2")
 #IM获取好友or群成员详情
 Bapp.namelistGetimuserdetail(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,fClientId,"获取成功")
@@ -224,7 +225,7 @@ Bapp.groupSetmuteall(iteration,mobilephone,appVer,envType,bapptoken,deviceType,u
 
 Bapp.friendSfbyphone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"18010161483","code\": 0")
 Bapp.friendSfbyphone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"18010161483","mobilephone\": \"18010161483")
-Bapp.friendSfbyphone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"18010161483","nickname\": \"王建")
+Bapp.friendSfbyphone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"18010161483","nickname\": \"京华")
 Bapp.friendSfbyphone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"18010161483","msg\": \"查询用户成功")
 
 Bapp.groupSetmuteone(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,client_id,"0",gid,"msg\": \"免打扰状态切换成功")
@@ -268,6 +269,7 @@ Capp.portfolioDetails(iteration,cappmobilephone,cappver,cenvType,capptoken,devic
 Capp.portfolioDetails(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,symbol,cappclient_id,"owner\": \"imaster_")
 Capp.portfolioDetails(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,symbol,cappclient_id,"msg\": \"组合详情查询完毕")
 Capp.portfolioDetails(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,symbol,cappclient_id,"status\": \"1")
+Capp.portfolioDetails(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,symbol,cappclient_id,"last_rb")
 #所有组合列表
 print(cappuserId + "cappclient_id jinghua")
 Capp.portfolioListall(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,cappuserId,deviceCode,cappType,cappclient_id,"code\": 0")
@@ -306,7 +308,7 @@ Bapp.syssharelink_getproduct(iteration,mobilephone,appVer,envType,bapptoken,devi
 Bapp.syssharelink_getproduct(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,"app_desc\": \"投资大师，开户交易一体化")
 #获取历史业绩
 Bapp.bkpi_gethistorykpi(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,"code\": 0")
-Bapp.bkpi_gethistorykpi(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,"msg\": \"请求失败，暂无相关数据")
+Bapp.bkpi_gethistorykpi(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,"msg\": \"请求成功！")
 #获取本月业绩
 Bapp.bkpi_getkpibymonth(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,"code\": 0")
 #更新联系人信息
@@ -430,8 +432,13 @@ Bapp.teamorderAcceptinvite(iteration,mobilephone,appVer,envType,bapptoken,device
 Bapp.messageGetdailymsg(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,returnvalue="msg\": \"获取成功",inputp=None,outputp=None)
 Bapp.teamorderGetratiostatus(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,teamorderid,returnvalue="msg\": \"该用户没有绩效提成信息",inputp=None,outputp=None)
 Bapp.financeMonthearn114(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None)
-
-
+"""
+Bapp.financeMyearnings(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,returnvalue="code\": 0",inputp=None,outputp=None)
+Bapp.financeGethiscustamt(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,returnvalue="code\": 0",inputp=None,outputp=None)
+Bapp.financeGetcusttradedetail(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,date,page,returnvalue="totalamt",inputp=None,outputp=None)
+Bapp.financeGetcustamount(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,returnvalue="total_gpzyamt",inputp=None,outputp=None)
+Bapp.financeGetmonthcusttradedetail(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,date,page,returnvalue="total_tradeamt",inputp=None,outputp=None)
+"""
 ######Capp
 
 #获取指定单页接口
@@ -505,3 +512,11 @@ Capp.cuserGetidentity(iteration,cappmobilephone,cappver,cenvType,capptoken,devic
 
 
 Capp.cuserComfirmcomplaint(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,"张三",content,"李四","13322221111","18010161483","S0820111070003",attachments,returnvalue=None,inputp=None,outputp=None)
+Capp.portfolioIstradingday(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,returnvalue=None,inputp=None,outputp=None)
+Capp.cuserSendauthcode(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,returnvalue=None,inputp=None,outputp=None)
+
+#v2.6.1
+Bapp.buserCheckmonthclear(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None)
+Bapp.portfolioSearchsp(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,cappType,"600","1","100",returnvalue=None,inputp=None,outputp=None)
+Bapp.portfolioSearchsp(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,cappType,"牛","3","100",returnvalue=None,inputp=None,outputp=None)
+Bapp.portfolioSearchsp(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,cappType,"600","2","10",returnvalue=None,inputp=None,outputp=None)

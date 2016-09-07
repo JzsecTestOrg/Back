@@ -132,5 +132,5 @@ Bapp.systemSendauthcode(iteration,mobilephone,appVer,envType,bapptoken,deviceTyp
 Bapp.systemRegister(iteration,mobilephone,cappver,envType,bapptoken,deviceType,userId,deviceCode,appType,verifyCode,password,verifyPassword,"1","jinghua",agree,returnvalue=None,inputp=SceneLogicBase.sysregisterinput,outputp=SceneLogicBase.sysregisteroutput)
 Bapp.systemLogin(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,password,returnvalue=None,inputp=SceneLogicBase.systemlogininput,outputp=SceneLogicBase.systemloginoutput)
 Bapp.system_resetpass(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,password,verifyPassword,verifyCode,returnvalue=None,inputp=SceneLogicBase.systemresetpassinput,outputp=SceneLogicBase.systemresetpassoutput)
-
+Bapp.bcustomer_modifycustomers(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,customers,returnvalue=None,inputp=SceneLogicBase.modifycustomersinput,outputp=SceneLogicBase.modifycustomersoutput)
 #Bapp.buserSendadvice(iteration,mobilephone,appVer,envType,bapptoken,deviceType,userId,deviceCode,appType,content,0,returnvalue=None,inputp=SceneLogicBase.busersendadviceinput,outputp=SceneLogicBase.busersendadviceoutput)

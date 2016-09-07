@@ -50,6 +50,8 @@ cuserloginoutput={
 
 
 """BAPP"""
+customers1=[{"customerExtend":{"add":[{"value":"15801208889","_id":44,"type":10,"bappceid":"b4691009650240e8beb66ae16de47dfb","status":2,"cid":"2c0931b782a3950c8b5c2bb8375aff307030307b0123423e9cadae9581c65a3b"}]}}]
+customers2=[{"customerExtend":{"add":[{"value":"13300000002","_id":18,"type":10,"bappceid":"baab5c40f11244e6b4ec3b8fc50e05fc","status":2,"cid":"b290d1046e194a8b52dfbbd525edb47e3bc5ae33b51b48a0b0315612a77a7b28"},{"value":"发发他人","_id":19,"type":20,"bappceid":"ef49c746142545b485ef78356722d479","status":2,"cid":"b290d1046e194a8b52dfbbd525edb47e3bc5ae33b51b48a0b0315612a77a7b28"},{"value":"jinghuaj@126.com","_id":20,"type":40,"bappceid":"36bec6a891ea4d8c85afeae097173667","status":2,"cid":"b290d1046e194a8b52dfbbd525edb47e3bc5ae33b51b48a0b0315612a77a7b28"}],"deleted":""},"is_web_sync":0,"fromwhichsys":1020,"_id":18,"truename":"002","cid":"b290d1046e194a8b52dfbbd525edb47e3bc5ae33b51b48a0b0315612a77a7b28"}]
 #注册
 syssendauthcodeinput={
     "mobilephone1":"15801205322",
@@ -127,4 +129,17 @@ busersendadviceoutput={
     "content4":"msg\": \"意见反馈成功",
     "content5":"msg\": \"意见反馈成功",
     "content6":"msg\": \"反馈内容字数限制为15-500字",
+    }
+
+#手动添加联系人
+modifycustomersinput={
+    "customers1":customers1,
+    "customers2":customers2,
+    "customers3":customers2,
+    }
+modifycustomersoutput={
+    "customers1":"value\": \"15801208889",
+    "customers2":"_id\": 19",
+    "customers3":"value\": \"jinghuaj@126.com",
+
     }

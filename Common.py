@@ -60,7 +60,7 @@ class ConnMysql:
 
 
 class File: 
-	def writeFile(self,input,type=None):
+	def writeFile(self,input,path,type=None):
 		#打开模式列表：
 		#w      以写方式打开，
 		#a      以追加模式打开 (从 EOF 开始, 必要时创建新文件)
@@ -74,11 +74,11 @@ class File:
 		#wb+    以二进制读写模式打开 (参见 w+ )
 		#ab+    以二进制读写模式打开 (参见 a+ )
 		try:
-			f = open('tpm.txt', 'a+')
+			f = open(path, 'a+')
 			#for i in range(10):
 			#	f.write(time.strftime('%Y-%m-%d %H:%M:%S'))
 			#	f.write(' ' + str(random.randint(0, i)) + '\n')
-			f.write(' ' + str(input) + '\n')
+			f.write(time.strftime('%Y-%m-%d %H:%M:%S') +' ' + str(input) + '\n')
 			f.close()
 		except Exception as e:
 			print(e)

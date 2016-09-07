@@ -1203,6 +1203,54 @@ class Capp:
             test1=MainLogic()
             test1.scenelogicTest(path,params,inputp,outputp)
 
+    #交易日及交易时间段获取
+    @staticmethod
+    def portfolioIstradingday(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = cappmobilephone
+        params['appVer']=cappver
+        params['envType']=cenvType
+        params['token']=capptoken
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=cappType
+        params['returnvalue']=returnvalue
+        path=cappurl + '/portfolio/istradingday'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #注册短信验证码
+    @staticmethod
+    def cuserSendauthcode(iteration,cappmobilephone,cappver,cenvType,capptoken,deviceType,userId,deviceCode,cappType,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = cappmobilephone
+        params['appVer']=cappver
+        params['envType']=cenvType
+        params['token']=capptoken
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=cappType
+        params['returnvalue']=returnvalue
+        path=cappurl + '/cuser/sendauthcode'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+
+
 
 
 
@@ -1862,6 +1910,42 @@ class Bapp:
         else:
             test.iterationTest(path, params)
 
+    #capp 股票、组合搜索
+    @staticmethod
+    def portfolioSearchsp(iteration,mobilephone,appver,cenvType,token,deviceType,userId,deviceCode,appType,input,type,count,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone'] = mobilephone
+        params['appVer']=appver
+        params['envType']=cenvType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['input']=input
+        params['type']=type
+        params['count']=count
+        params['returnvalue']=returnvalue
+        path=imurl + '/portfolio/searchsp'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+
+
+
+
+
+
+
+
+
+
     """V2.0 Bapp"""
     #app初始化
     @staticmethod
@@ -2023,8 +2107,11 @@ class Bapp:
         test=InterfaceTests()
         if iteration=="Nomal":
             test.interfaceTest(path,params)
-        else:
+        elif iteration=="Fault":
             test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
 
     @staticmethod
     def bcustomer_syncnew (iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None):
@@ -3598,6 +3685,148 @@ class Bapp:
         params['appType']=appType
         params['returnvalue']=returnvalue
         path=bappurl + '/finance/monthearn114'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #bapp 检查是否已经月结
+    @staticmethod
+    def buserCheckmonthclear(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['returnvalue']=returnvalue
+        path=bappurl + '/buser/checkmonthclear'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #bapp 查询我的收入
+    @staticmethod
+    def financeMyearnings(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['returnvalue']=returnvalue
+        path=bappurl + '/finance/myearnings'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #114版获取历史业绩中的客户交易额
+    @staticmethod
+    def financeGethiscustamt(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['returnvalue']=returnvalue
+        path=bappurl + '/finance/gethiscustamt'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #114版获取历史业绩中的客户交易详情
+    @staticmethod
+    def financeGetcusttradedetail(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,date,page,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['date']=date
+        params['page']=page
+        params['returnvalue']=returnvalue
+        path=bappurl + '/finance/getcusttradedetail'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #2.8版获取历史业绩中的客户交易额
+    @staticmethod
+    def financeGetcustamount(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['returnvalue']=returnvalue
+        path=bappurl + '/finance/getcustamount'
+        test=InterfaceTests()
+        if iteration=="Nomal":
+            test.interfaceTest(path,params)
+        elif iteration=="Fault":
+            test.iterationTest(path, params)
+        else:
+            test1=MainLogic()
+            test1.scenelogicTest(path,params,inputp,outputp)
+
+    #经纪人本月业绩的客户交易额V2.8
+    @staticmethod
+    def financeGetmonthcusttradedetail(iteration,mobilephone,appVer,envType,token,deviceType,userId,deviceCode,appType,date,page,returnvalue=None,inputp=None,outputp=None):
+        params={}
+        params['mobilephone']=mobilephone
+        params['appVer']=appVer
+        params['envType']=envType
+        params['token']=token
+        params['deviceType']=deviceType
+        params['userId']=userId
+        params['deviceCode']=deviceCode
+        params['appType']=appType
+        params['date']=date
+        params['page']=page
+        params['returnvalue']=returnvalue
+        path=bappurl + '/finance/getmonthcusttradedetail'
         test=InterfaceTests()
         if iteration=="Nomal":
             test.interfaceTest(path,params)

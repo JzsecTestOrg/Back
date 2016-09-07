@@ -27,7 +27,7 @@ class InterfaceTests:
         # self.mobilephone='18010161483'
         # self.password='qaz123'
 
-        self.cappmobilephone='13300000008'
+        self.cappmobilephone='13300000001'
         self.capppassword='qaz123'
         self.returnparams={}
         self.finalstate=True
@@ -55,35 +55,53 @@ class InterfaceTests:
         params['deviceCode']='python'
         params['appType']='1'
         params['agree']='1'
+
+        accountparams={}
+        accountparams['funcNo']=601521
+        accountparams['mobile_no']=18000000003
+        accountparams['mobile_code']=133456
+        accountparams['login_flag']=9
+        accountparams['iscompany']="jzhlwwyh"
+        accountparams['infocolect_channel']=5
+        accountparams['op_source']=5
+        accountparams['op_way']=5
+        accountparams['clientKey']="%25252Bgx0BAh%25252BFcVZSsF%25252Bzuz96XUiheaTUyYXHxq56mtwYhs%25253D"
+        #"funcNo=601521&mobile_no=18000000003&mobile_code=133456&login_flag=9&iscompany=jzhlwwyh&infocolect_channel=5&clientinfo=&jsessionid=&op_source=5&op_way=5&clientKey=%25252Bgx0BAh%25252BFcVZSsF%25252Bzuz96XUiheaTUyYXHxq56mtwYhs%25253D"
         #print(params['appVer'])
         if client=='bapp' or client=='client_id':
             succeeded,js=self.interfaceTest(self.bappurl + '/system/login', params)
+        elif client=='account':
+            succeeded,js=self.interfaceTest("http://123.59.143.112:8093" + '/servlet/json', accountparams,trade="account")
         else:
             succeeded,js=self.interfaceTest(self.cappurl + '/cuser/login', params)
+        print(succeeded)
+        try:
+            print(js)
 
-        if succeeded:
-            try:
-                print(js['data'])
+            if client=='bapp':
+                print(js['data']['token'])
+                self.returnparams['bapptoken']=js['data']['token']
+                self.returnparams['userId']=js['data']['userId']
+                print(js['data']['userInfo']['client_id'])
+                self.returnparams['client_id']=js['data']['userInfo']['client_id']
+                #return js['data']['userInfo']['client_id']
+            elif client=='capp':
+                #print('capp')
+                print(js['data']['token'])
+                self.returnparams['capptoken']=js['data']['token']
+                self.returnparams['cappuserId']=js['data']['userId']
+                print(js['data']['client_id'])
+                self.returnparams['cappclient_id']=js['data']['client_id']
+            elif client=="account":
+                #print(js["results"][0]["jsessionid"])
+                self.returnparams['jsessionid']=js["results"][0]["jsessionid"]
+                self.returnparams['user_id']=js["results"][0]["user_id"]
+            return self.returnparams
 
-                if client=='bapp':
-                    print(js['data']['token'])
-                    self.returnparams['bapptoken']=js['data']['token']
-                    self.returnparams['userId']=js['data']['userId']
-                    print(js['data']['userInfo']['client_id'])
-                    self.returnparams['client_id']=js['data']['userInfo']['client_id']
-                    #return js['data']['userInfo']['client_id']
-                elif client=='capp':
-                    #print('capp')
-                    print(js['data']['token'])
-                    self.returnparams['capptoken']=js['data']['token']
-                    self.returnparams['cappuserId']=js['data']['userId']
-                    print(js['data']['client_id'])
-                    self.returnparams['cappclient_id']=js['data']['client_id']
-                return self.returnparams
 
-
-            except:
-                return ''
+        except Exception as e:
+            return ''
+            print(e)
     def get_login_userId(self, mobile=None, password=None):
 
 
@@ -202,7 +220,8 @@ class InterfaceTests:
                 #print(jstest.find(params['returnvalue']))
                 #print(url.find("/system/login"))
                 #print ("/system/login" in url)
-                if ("/login" in url) == False:
+                """需要取返回值的接口名字要在以下if判断中"""
+                if ("/login" in url or "json" in url) == False:
                     #print(jstest.find("获取成功"))
                     print(params['returnvalue'])
                     if params['returnvalue']==None :
@@ -321,7 +340,7 @@ if __name__ == '__main__':
     #test.batch_interface_test('follow/followlist', test.generalParams, returnCodeFunc=test.requestSucceeded)
     #print(test.get_login_token('capp'))
     #print(test.get_login_token('owner'))
-    print(test.get_login_token('bapp'))
+    print(test.get_login_token('account'))
     #print(test.get_login_token('client_id'))
     #print(test.get_login_userId())
     #print(test.getAuthCode())
