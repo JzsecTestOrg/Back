@@ -8,7 +8,7 @@ iteration="Nomal"
 #iteration="Fault"
 #mobilephone = '15501253701'
 mobilephone = '18010161483'
-cappmobilephone='13300000008'
+cappmobilephone='13300000001'
 local_count='0'
 product_id='2'
 envType='1'
@@ -22,7 +22,7 @@ cid=[]
 url='http:\/\/w.url.cn\/s\/ALpa9Bo'
 #getappver=InterfaceTests()
 #print(Bapp.systemInit(iteration,mobilephone,envType,deviceType,"24",deviceCode,appType))
-appVer='118'
+appVer='131'
 #cappver='118'
 cappver='185'
 value='风风光光呵呵'

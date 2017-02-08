@@ -76,7 +76,7 @@ class TradeTest:
         mem = BytesIO()
         mem.write(data)
         mem.seek(0)
-
+        print(type(Image.open(mem)))
         captcha = pytesseract.image_to_string(Image.open(mem), config='digits')
         print(captcha)
         return captcha

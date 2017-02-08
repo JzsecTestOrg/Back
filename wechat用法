@@ -1,0 +1,55 @@
+#!/usr/bin/python
+# encoding:utf8
+
+from wechat import wechat
+wc = wechat()
+params = {
+    'first' : ['aaa','bbb','ccc'],
+    'keyword1' : 'hello',
+    'keyword2' : 'world',
+    'remark' : ['xxx','yyy','zzz']
+}
+wc.send(params)
+用法大致就是这样，keyword1和keyword2是字符串
+first和remark是列表，列表的每一个元素都会在消息中单独占一行
+所有中文必须都是utf8编码
+可以使用./wechat.py --help来查看具体语法。
+所有生产机器都有这个文件，
+如果你要发微信的地方没有的话就让博宇从生产给你拷一个
+
+以上例子中，你最终收到的微信消息内容是这样：
+aaa
+bbb
+ccc
+错误级别：hello
+错误信息：world
+xxx
+yyy
+zzz
+其中错误级别和错误信息是这个模板的固定内容，改不了。
+
+呃，sorry，我漏说了一个重大事件，因为平时不考虑，所以给忘了，就是发给谁怎么发的问题。首先想收到消息必须先关注【经纪宝开发】这个公众号，否则收不到，然后在webtools里面把收消息的用户加上实名（只有运维有权限，可以找我、博宇、炳吹改），如果人比较多的话也可以在webtools里面给这些人建个组，然后发给这个组，相关参数是usernames, groupnames, openids, groupids,deletednames,这5个参数可以使用其中任意N个，类型都是列表，最终的收信人列表是前4个的并集再排除deletednames里面的人，例如：
+params = {
+    # 刚才上面那个例子里的内容，不重复了
+    ‘usernames’ : [u'徐文',u'鲍翠敏'],
+    'groupnames':['u'运维'],
+    'deletednames':[u'杨明志'],
+}
+如此，最终的接收人是：徐文，鲍翠敏，关博宇，陈炳吹，4个人（我被移除了）
+关于哪个组里有哪些人，可以在webtools里查，
+建新组的话需要找运维操作。
+另外你所有发送过的通知都有记录，也可以在webtools里查到。
+openid和groupid用的不多，可以忽略。
+还有，如果你发消息的机器没有公网IP的话必须使用UseProxy参数，并设为真，
+如： params = { 'UseProxy' : True, ..... }
+这样才能发送成功。
+还有NotifyType，字符串，最终会在消息记录里给你设定个类型，在webtools里查看
+最后一个URL参数，默认为空，如果设置了，则你的消息里会有一个链接，链接上有“详情”两个字，点击链接就会 跳转到这个参数设置的地址去。
+NotifyOnly，如果为True,则只发消息但不存储消息发送记录，默认为False
+RecordOnly，如果为True，则只记录消息但不发送，默认为False
+ColorType，可使用OK,WARNING,CRITICAL,UNKNOWN,PENDING中的1个，用于标记消息文字的颜色，其中OK是绿色，WARNING是黄色，CRITICAL是红色，UNKNOWN是棕黄色，PENDING是灰色，不使用这个参数默认是黑色，
+呃，我照着脚本一口气把所有参数都说了一遍，但愿你能看得懂。
+
+http://bapp.tlan.com.cn/system/loginpage
+
+新三板提佣
